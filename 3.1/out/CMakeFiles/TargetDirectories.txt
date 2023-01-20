@@ -1,0 +1,7 @@
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/CMakeFiles/main.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/lib/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/lib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/lib/CMakeFiles/Safety.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.1/out/lib/CMakeFiles/Clothing.dir
