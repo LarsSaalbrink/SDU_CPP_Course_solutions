@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.2/lib/QuadraticEquation.cpp
+QuadraticEquation.h
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.2/lib/QuadraticEquation.h
+cmath
+-
+iostream
+-
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.2/lib/QuadraticEquation.h
+

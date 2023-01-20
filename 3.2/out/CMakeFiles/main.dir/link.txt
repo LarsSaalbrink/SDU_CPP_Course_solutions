@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main   -L/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.2/lib  -Wl,-rpath,/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.2/lib lib/libSafety.a lib/libQuadraticEquation.a 

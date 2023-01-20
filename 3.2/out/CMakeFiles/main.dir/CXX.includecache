@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/QuadraticEquation.h
+
+../lib/Safety.h
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/3.2/main.cpp
+iostream
+-
+iomanip
+-
+QuadraticEquation.h
+-
+Safety.h
+-
+
