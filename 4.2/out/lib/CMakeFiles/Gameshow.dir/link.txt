@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGameshow.a  CMakeFiles/Gameshow.dir/Gameshow.cpp.o
+/usr/bin/ranlib libGameshow.a
