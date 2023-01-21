@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/6.2/lib/UI.cpp
+iostream
+-
+string
+-
+UI.h
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/6.2/lib/UI.h
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/6.2/lib/UI.h
+
