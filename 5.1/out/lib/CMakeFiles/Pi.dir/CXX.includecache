@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/5.1/lib/Pi.cpp
+Pi.h
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/5.1/lib/Pi.h
+cmath
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/5.1/lib/cmath
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/5.1/lib/Pi.h
+
