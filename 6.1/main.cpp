@@ -49,39 +49,3 @@ int main()
     }
     return 0;
 }
-
-
-
-
-
-//Less streamlined version of main(), not using UI.cpp to handle user input
-/*
-std::cout << "\n\nCalculate approximation of pi using Gregory-Leibniz Series or exit? (C/E): ";
-        std::cin >> choice;
-        if(choice == 'E' || choice == 'e'){
-            std::cout << "Thank you for using the program!\n";
-            break;
-        }
-        else if(choice == 'C' || choice == 'c'){
-            std::cout << "Get current pi or change to different series order (C/D): ";
-            std::cin >> choice2;
-            if(choice2 == 'C' || choice2 == 'c'){
-                std::cout << "Current pi: " << approx.getPi() << "\n";
-            }
-            else if(choice2 == 'D' || choice2 == 'd'){
-                std::cout << "Enter new order: ";
-                int order;
-                getInput(order);
-                approx.setOrder(order);
-                approx.calcPi();
-                std::cout << "New pi: " << approx.getPi() << "\n";
-            }
-            else{
-                 badInput();
-            }
-        }
-
-        else{
-            badInput();
-        }
-*/
