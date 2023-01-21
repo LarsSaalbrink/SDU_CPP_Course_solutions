@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/6.1/lib/Date.cpp
+Date.h
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/6.1/lib/Date.h
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/6.1/lib/Date.h
+
