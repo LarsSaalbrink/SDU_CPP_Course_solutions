@@ -13,13 +13,13 @@ int play(char switchDoors){
         //Remove the empty door not chosen by the player
         int host = rand() % 3 + 1;
         while(host == prize || host == player){
-            host = rand() % 3 + 1;
+            host = (host + 1) % 3 + 1;
         }
         //If the player switches, change the player's choice to the other door
         if(switchDoors == 'Y' || switchDoors == 'y'){
             int oldChoice = player;
             while(player == oldChoice || player == host){
-                player = rand() % 3 + 1;
+                player = (player + 1) % 3 + 1;
             }
         }
         //If the player wins, increment the win counter
