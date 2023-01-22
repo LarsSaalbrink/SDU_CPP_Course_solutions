@@ -1,5 +1,5 @@
-#ifndef DATE_H
-#define DATE_H
+#ifndef ARRAYINT100_H
+#define ARRAYINT100_H
 
 class ArrayInt100
 {
@@ -16,4 +16,4 @@ private:
     int _array[100];
 };
 
-#endif // DATE_H
+#endif // ARRAYINT100_H

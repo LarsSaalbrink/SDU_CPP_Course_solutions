@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/PhoneBook.h
+string
+-
+vector
+-
+
+../lib/Safety.h
+
+../lib/UI.h
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/main.cpp
+iostream
+-
+iomanip
+-
+Safety.h
+-
+UI.h
+-
+PhoneBook.h
+-
+string
+-
+

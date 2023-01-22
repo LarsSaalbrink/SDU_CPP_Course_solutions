@@ -1,0 +1,8 @@
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/CMakeFiles/main.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/lib/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/lib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/lib/CMakeFiles/PhoneBook.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/lib/CMakeFiles/UI.dir
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/7.3/out/lib/CMakeFiles/Safety.dir
