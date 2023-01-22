@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/Loan.h
+iostream
+-
+
+../lib/Safety.h
+
+../lib/UI.h
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/9.1/main.cpp
+iostream
+-
+iomanip
+-
+Safety.h
+-
+UI.h
+-
+Loan.h
+-
+string
+-
+vector
+-
+cmath
+-
+
