@@ -1,0 +1,1 @@
+add_library(UnitTestVector Vector.cpp UnitTest.cpp)  #Library built from both source files, as unit tests are based on the Vector class

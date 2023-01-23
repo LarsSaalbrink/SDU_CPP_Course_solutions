@@ -2,8 +2,6 @@
 #include <cstdlib>
 #include <cmath>
 
-//Person class--------------------------------------------------------------
-
 Loan::Loan()
 {
 }
