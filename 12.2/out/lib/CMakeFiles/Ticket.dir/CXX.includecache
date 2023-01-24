@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/12.2/lib/Ticket.cpp
+Ticket.h
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/12.2/lib/Ticket.h
+cmath
+-
+stdexcept
+-
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/12.2/lib/Ticket.h
+string
+-
+
