@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/12.1/lib/Shapes.cpp
+Shapes.h
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/12.1/lib/Shapes.h
+cmath
+-
+stdexcept
+-
+
+/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/12.1/lib/Shapes.h
+string
+-
+
