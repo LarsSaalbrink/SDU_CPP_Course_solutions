@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDictionaryLookup.a CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o CMakeFiles/DictionaryLookup.dir/Safety.cpp.o CMakeFiles/DictionaryLookup.dir/UI.cpp.o
+/usr/bin/ranlib libDictionaryLookup.a
