@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Clothing.dir/Clothing.cpp.o"
+  "CMakeFiles/Clothing.dir/Clothing.cpp.o.d"
   "libClothing.a"
   "libClothing.pdb"
 )

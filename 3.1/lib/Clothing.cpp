@@ -1,4 +1,4 @@
-#include "CLothing.h"
+#include "Clothing.h"
 
 Clothing::Clothing()
 {

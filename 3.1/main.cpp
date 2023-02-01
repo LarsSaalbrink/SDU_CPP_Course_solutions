@@ -3,6 +3,8 @@
 #include <Clothing.h>
 #include <Safety.h>
 
+#include <Date.h>
+#include <Person.h>
 
 int main()
 {
@@ -11,6 +13,15 @@ int main()
     char choice;
 
     std::cout << std::setprecision(4);
+
+    //Date class demo from in class exercises (not part of the assignment)
+    Date myDate(23, 11, 1999);
+    std::cout << "My birthday is on: " << myDate.toText() << std::endl;
+
+    //Person class demo from in class exercises (not part of the assignment)
+    Person myPerson("Lars S.", myDate);
+    //Print out the name and birthday of the person
+    std::cout << myPerson.getName() << ": " << myPerson.getBirthdate().toText() << std::endl;
 
     while(1){
         std::cout << "\n\nNew set of clothing sizes or exit? (N/E): ";
