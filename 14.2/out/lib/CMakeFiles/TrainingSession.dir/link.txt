@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTrainingSession.a CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o CMakeFiles/TrainingSession.dir/HeartRate.cpp.o
+/usr/bin/ranlib libTrainingSession.a

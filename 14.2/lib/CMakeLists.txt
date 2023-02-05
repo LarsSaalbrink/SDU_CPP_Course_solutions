@@ -1,0 +1,1 @@
+add_library(TrainingSession TrainingSession.cpp HeartRate.cpp)
