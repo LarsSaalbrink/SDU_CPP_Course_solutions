@@ -1,0 +1,6 @@
+HAVFRISK LAK		food
+FINVALSET HAVREGRY	food
+ØGO HVEDEMEL 2 KG	food
+ØKO. HAVREGRYN		food
+MAXI BLEER			hygiene
+TOTAL				total
