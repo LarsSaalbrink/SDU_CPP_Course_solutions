@@ -4,15 +4,17 @@
 #include <UI.h>
 #include <ArrayInt100.h>
 #include <string>
+#include <ctime>
 
 void programDone(){
     std::cout << "Thank you for using the program!\n";
 }
 
-
-
 int main()
 {
+    //Seed the random number generator
+    srand(static_cast<unsigned int>(time(0)));
+
     ArrayInt100 theArray = ArrayInt100();
     
     while(1){
@@ -22,7 +24,7 @@ int main()
             std::cout << "Array content:\n";
             theArray.print();
             std::cout << "\nNew random values, 0-99:\n";
-            theArray.fillRandom(1, 100);
+            theArray.fillRandom(0, 99);
             theArray.print();
             std::cout << "\nMax value: " << theArray.findMax() << std::endl;
             std::cout << "Number of 42's: " << theArray.countSpecific(42) << std::endl;

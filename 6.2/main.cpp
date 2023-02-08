@@ -4,7 +4,7 @@
 #include <UI.h>
 
 #define amountofDice 5
-#define maxRollAmount 10000000
+#define maxRollAmount 10000000U
 
 void programDone(){
     std::cout << "Thank you for using the program!\n";
@@ -29,7 +29,7 @@ int main()
             std::cout << "Choose amount of times to roll the 5 dice, max " << maxRollAmount << ": ";
             unsigned int rollAmount = (unsigned int)(-1);
 
-            getWithinLimits(rollAmount, 1, maxRollAmount);
+            getWithinLimits(rollAmount, 1U, maxRollAmount);
 
             double diceRollTally = rollDice(rollAmount);
             std::cout << "Rolling " << rollAmount << " times...\n";

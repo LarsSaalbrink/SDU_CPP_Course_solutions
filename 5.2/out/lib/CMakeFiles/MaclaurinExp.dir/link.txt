@@ -1,2 +1,2 @@
-/usr/bin/ar qc libMaclaurinExp.a  CMakeFiles/MaclaurinExp.dir/MaclaurinExp.cpp.o
+/usr/bin/ar qc libMaclaurinExp.a CMakeFiles/MaclaurinExp.dir/MaclaurinExp.cpp.o
 /usr/bin/ranlib libMaclaurinExp.a

@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main   -L/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/5.1/lib  -Wl,-rpath,/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/5.1/lib lib/libSafety.a lib/libUI.a lib/libPi.a 
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.cpp.o -o main   -L/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/5.1/lib  -Wl,-rpath,/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/5.1/lib lib/libSafety.a lib/libUI.a lib/libPi.a 

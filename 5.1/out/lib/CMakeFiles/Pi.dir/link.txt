@@ -1,2 +1,2 @@
-/usr/bin/ar qc libPi.a  CMakeFiles/Pi.dir/Pi.cpp.o
+/usr/bin/ar qc libPi.a CMakeFiles/Pi.dir/Pi.cpp.o
 /usr/bin/ranlib libPi.a

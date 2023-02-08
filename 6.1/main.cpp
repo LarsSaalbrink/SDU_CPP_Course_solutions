@@ -4,6 +4,7 @@
 #include <UI.h>
 #include <Date.h>
 #include <string>
+#include <climits>
 
 void programDone(){
     std::cout << "Thank you for using the program!\n";
@@ -13,11 +14,12 @@ void getDateInput(Date &weekdayFinder){
     int year, month, day;
     std::cout << "Please use 1-indexing\n";
     std::cout << "Enter year: ";
-    getInput(year);
+    getWithinLimits<int>(year, 0, INT_MAX);
     std::cout << "Enter month: ";
-    getInput(month);
+    getWithinLimits<int>(month, 1, 12);
     std::cout << "Enter day: ";
-    getInput(day);
+    getWithinLimits<int>(day, 1, 31);
+
     weekdayFinder.setYear(year);
     weekdayFinder.setMonth(month);
     weekdayFinder.setDay(day);

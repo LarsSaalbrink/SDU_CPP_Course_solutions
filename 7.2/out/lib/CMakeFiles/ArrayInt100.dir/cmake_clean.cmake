@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ArrayInt100.dir/ArrayInt100.cpp.o"
+  "CMakeFiles/ArrayInt100.dir/ArrayInt100.cpp.o.d"
   "libArrayInt100.a"
   "libArrayInt100.pdb"
 )

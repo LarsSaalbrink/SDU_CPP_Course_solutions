@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UI.dir/UI.cpp.o"
+  "CMakeFiles/UI.dir/UI.cpp.o.d"
   "libUI.a"
   "libUI.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PhoneBook.dir/PhoneBook.cpp.o"
+  "CMakeFiles/PhoneBook.dir/PhoneBook.cpp.o.d"
   "libPhoneBook.a"
   "libPhoneBook.pdb"
 )

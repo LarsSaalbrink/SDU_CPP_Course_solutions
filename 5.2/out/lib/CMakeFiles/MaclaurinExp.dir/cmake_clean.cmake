@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MaclaurinExp.dir/MaclaurinExp.cpp.o"
+  "CMakeFiles/MaclaurinExp.dir/MaclaurinExp.cpp.o.d"
   "libMaclaurinExp.a"
   "libMaclaurinExp.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Pi.dir/Pi.cpp.o"
+  "CMakeFiles/Pi.dir/Pi.cpp.o.d"
   "libPi.a"
   "libPi.pdb"
 )

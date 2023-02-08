@@ -1,4 +1,5 @@
 #include "Date.h"
+#include <iostream>
 
 Date::Date()
 {
@@ -30,10 +31,21 @@ int Date::getDayOfWeek(){
     int y = _year;
     int m = _month;
     int d = _day - 1;  //Math expects 0 indexed day
+
+    //Print inputs
+    std::cout << "Year: " << y << "\n";
+    std::cout << "Month: " << m << "\n";
+    std::cout << "Day: " << d << "\n";
     
     //Shift months to make march = 1, feb = 12
-    m = (m + 10) % 12;
+    m = (m + 9) % 12 + 1;
 
-    return ((int)(d + ((int)(2.6*m-0.2)) + (y % 100) + ((y % 100)/4) + ((y/100)/4) - 2*(y/100)) % 7);
+    int weeknum = (static_cast<int>(d + 
+                                    (static_cast<int>(2.6*m-0.2)) + 
+                                    (y % 100) + 
+                                    ((y % 100)/4) + 
+                                    ((y/100)/4) - 
+                                    2*(y/100)) % 7);
+    return (weeknum < 0 ? weeknum + 7 : weeknum);
 }
 

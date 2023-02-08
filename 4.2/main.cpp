@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <Safety.h>
 #include <Gameshow.h>
+#include <ctime>
 
 
 //Monty Hall Game Simulation

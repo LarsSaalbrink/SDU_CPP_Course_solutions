@@ -8,7 +8,7 @@
 namespace mp = matplotlibcpp;
 
 #define amountofDice 5
-#define maxRollAmount 500000
+#define maxRollAmount 500000U
 
 void programDone(){
     std::cout << "Thank you for using the program!\n";
@@ -35,7 +35,7 @@ int main()
             //Option 'R' selected
             std::cout << "Choose amount of times to roll the 5 dice, max " << maxRollAmount << ": ";
             unsigned int rollAmount = (unsigned int)(-1);
-            getWithinLimits(rollAmount, 1, maxRollAmount);
+            getWithinLimits(rollAmount, 1U, maxRollAmount);
 
             //int histogramBins[((amountofDice*6)-4)] = {0};  //Possible values are 5-30, so 26 bins
             std::vector<int> histogramBins(((amountofDice*6)), 0);
@@ -43,11 +43,6 @@ int main()
             std::cout << "Rolling " << rollAmount << " times...\n";
             std::cout << "Total across all rolls of all dice: " << diceRollTally << "\n";
             std::cout << "Average across all rolls of all dice: " << (diceRollTally / (rollAmount*amountofDice)) << "\n";
-
-            //Print content of each bin
-            for(int i = 5; i < (amountofDice*6); i++){
-                std::cout << "Bin " << i+1 << ": " << histogramBins[i] << "\n";
-            }
 
             //Plot histogramBins using matplotlib
             mp::bar(histogramBins);
