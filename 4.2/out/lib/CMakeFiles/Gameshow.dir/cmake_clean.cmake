@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Gameshow.dir/Gameshow.cpp.o"
+  "CMakeFiles/Gameshow.dir/Gameshow.cpp.o.d"
   "libGameshow.a"
   "libGameshow.pdb"
 )

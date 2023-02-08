@@ -5,14 +5,9 @@
 
 int main()
 {
-    int doublingPeriod = 5;      //Days
-    int previousPopulation = 0;  //Pounds of crud
-    int currentPopulation = 0;
-    int daysOfGrowth;
-    char choice;
-    
-
     std::cout << std::setprecision(2);
+
+    char choice;
 
     while(1){
         std::cout << "\n\nSimulate another population or exit? (S/E): ";
@@ -21,6 +16,11 @@ int main()
             std::cout << "Thank you for using the program!\n";
             break;
         }
+
+        int doublingPeriod = 5;      //Days
+        int previousPopulation = 0;  //Pounds of crud
+        int currentPopulation = 0;
+        int daysOfGrowth;
 
         if(choice == 'S' || choice == 's'){
             std::cout << "Input starting population as whole number: ";

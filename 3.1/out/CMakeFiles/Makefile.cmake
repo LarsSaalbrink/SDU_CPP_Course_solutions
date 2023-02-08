@@ -48,6 +48,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "lib/CMakeFiles/Clothing.dir/DependInfo.cmake"
   "lib/CMakeFiles/Safety.dir/DependInfo.cmake"
-  "lib/CMakeFiles/Date.dir/DependInfo.cmake"
-  "lib/CMakeFiles/Person.dir/DependInfo.cmake"
   )

@@ -144,34 +144,6 @@ Safety/fast:
 	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/build
 .PHONY : Safety/fast
 
-# Convenience name for target.
-lib/CMakeFiles/Date.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Date.dir/rule
-.PHONY : lib/CMakeFiles/Date.dir/rule
-
-# Convenience name for target.
-Date: lib/CMakeFiles/Date.dir/rule
-.PHONY : Date
-
-# fast build rule for target.
-Date/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/build
-.PHONY : Date/fast
-
-# Convenience name for target.
-lib/CMakeFiles/Person.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Person.dir/rule
-.PHONY : lib/CMakeFiles/Person.dir/rule
-
-# Convenience name for target.
-Person: lib/CMakeFiles/Person.dir/rule
-.PHONY : Person
-
-# fast build rule for target.
-Person/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/build
-.PHONY : Person/fast
-
 Clothing.o: Clothing.cpp.o
 .PHONY : Clothing.o
 
@@ -195,54 +167,6 @@ Clothing.s: Clothing.cpp.s
 Clothing.cpp.s:
 	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Clothing.dir/build.make lib/CMakeFiles/Clothing.dir/Clothing.cpp.s
 .PHONY : Clothing.cpp.s
-
-Date.o: Date.cpp.o
-.PHONY : Date.o
-
-# target to build an object file
-Date.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/Date.cpp.o
-.PHONY : Date.cpp.o
-
-Date.i: Date.cpp.i
-.PHONY : Date.i
-
-# target to preprocess a source file
-Date.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/Date.cpp.i
-.PHONY : Date.cpp.i
-
-Date.s: Date.cpp.s
-.PHONY : Date.s
-
-# target to generate assembly for a file
-Date.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/Date.cpp.s
-.PHONY : Date.cpp.s
-
-Person.o: Person.cpp.o
-.PHONY : Person.o
-
-# target to build an object file
-Person.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/Person.cpp.o
-.PHONY : Person.cpp.o
-
-Person.i: Person.cpp.i
-.PHONY : Person.i
-
-# target to preprocess a source file
-Person.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/Person.cpp.i
-.PHONY : Person.cpp.i
-
-Person.s: Person.cpp.s
-.PHONY : Person.s
-
-# target to generate assembly for a file
-Person.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/Person.cpp.s
-.PHONY : Person.cpp.s
 
 Safety.o: Safety.cpp.o
 .PHONY : Safety.o
@@ -277,18 +201,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Clothing"
-	@echo "... Date"
-	@echo "... Person"
 	@echo "... Safety"
 	@echo "... Clothing.o"
 	@echo "... Clothing.i"
 	@echo "... Clothing.s"
-	@echo "... Date.o"
-	@echo "... Date.i"
-	@echo "... Date.s"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
 	@echo "... Safety.o"
 	@echo "... Safety.i"
 	@echo "... Safety.s"

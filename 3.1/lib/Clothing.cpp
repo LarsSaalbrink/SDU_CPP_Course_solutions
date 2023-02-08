@@ -9,16 +9,13 @@ Clothing::Clothing(float m, float h, int age) {
 
     //Calculations as per assignment definitions
     this->hat = ((m/h)*41.25*pi);
-    this->jacket = (((h*m)/335) + (Clothing::jacketAging()));
-    this->waist = ((m/2.6)+(Clothing::waistAging()));
+    this->jacket = ((((h*m)/335)/inch) + (Clothing::jacketAging()));
+    this->waist = (((m/2.6)/inch) + (Clothing::waistAging()));
 }
 
 Clothing::~Clothing()
 {
-    delete &hat;
-    delete &jacket;
-    delete &waist;
-    delete &age;
+    delete[] this;  
 }
 
 //+0.125 inches of jacket size for every 10 years over 30

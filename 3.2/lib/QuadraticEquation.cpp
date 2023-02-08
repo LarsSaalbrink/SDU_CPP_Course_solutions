@@ -12,14 +12,7 @@ QuadraticEquation::QuadraticEquation(double a, double b, double c) {
 
 QuadraticEquation::~QuadraticEquation()
 {
-    delete &a;
-    delete &b;
-    delete &c;
-    delete &D;
-    delete &r1;
-    delete &r2;
-    delete &k;
-    delete &omega;
+    delete[] this;
 }
 
 void QuadraticEquation::solve(double a, double b, double c) {

@@ -15,8 +15,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/lib/CMakeFiles/Safety.dir/DependInfo.cmake"
   "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/lib/CMakeFiles/Clothing.dir/DependInfo.cmake"
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/lib/CMakeFiles/Date.dir/DependInfo.cmake"
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/lib/CMakeFiles/Person.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

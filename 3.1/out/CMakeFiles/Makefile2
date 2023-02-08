@@ -82,8 +82,6 @@ clean: lib/clean
 # Recursive "all" directory target.
 lib/all: lib/CMakeFiles/Clothing.dir/all
 lib/all: lib/CMakeFiles/Safety.dir/all
-lib/all: lib/CMakeFiles/Date.dir/all
-lib/all: lib/CMakeFiles/Person.dir/all
 .PHONY : lib/all
 
 # Recursive "preinstall" directory target.
@@ -93,8 +91,6 @@ lib/preinstall:
 # Recursive "clean" directory target.
 lib/clean: lib/CMakeFiles/Clothing.dir/clean
 lib/clean: lib/CMakeFiles/Safety.dir/clean
-lib/clean: lib/CMakeFiles/Date.dir/clean
-lib/clean: lib/CMakeFiles/Person.dir/clean
 .PHONY : lib/clean
 
 #=============================================================================
@@ -103,16 +99,14 @@ lib/clean: lib/CMakeFiles/Person.dir/clean
 # All Build rule for target.
 CMakeFiles/main.dir/all: lib/CMakeFiles/Clothing.dir/all
 CMakeFiles/main.dir/all: lib/CMakeFiles/Safety.dir/all
-CMakeFiles/main.dir/all: lib/CMakeFiles/Date.dir/all
-CMakeFiles/main.dir/all: lib/CMakeFiles/Person.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles --progress-num=9,10 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles --progress-num=5,6 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -159,7 +153,7 @@ lib/CMakeFiles/Clothing.dir/clean:
 lib/CMakeFiles/Safety.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles --progress-num=7,8 "Built target Safety"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles --progress-num=3,4 "Built target Safety"
 .PHONY : lib/CMakeFiles/Safety.dir/all
 
 # Build rule for subdir invocation for target.
@@ -177,58 +171,6 @@ Safety: lib/CMakeFiles/Safety.dir/rule
 lib/CMakeFiles/Safety.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/clean
 .PHONY : lib/CMakeFiles/Safety.dir/clean
-
-#=============================================================================
-# Target rules for target lib/CMakeFiles/Date.dir
-
-# All Build rule for target.
-lib/CMakeFiles/Date.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles --progress-num=3,4 "Built target Date"
-.PHONY : lib/CMakeFiles/Date.dir/all
-
-# Build rule for subdir invocation for target.
-lib/CMakeFiles/Date.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Date.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 0
-.PHONY : lib/CMakeFiles/Date.dir/rule
-
-# Convenience name for target.
-Date: lib/CMakeFiles/Date.dir/rule
-.PHONY : Date
-
-# clean rule for target.
-lib/CMakeFiles/Date.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/clean
-.PHONY : lib/CMakeFiles/Date.dir/clean
-
-#=============================================================================
-# Target rules for target lib/CMakeFiles/Person.dir
-
-# All Build rule for target.
-lib/CMakeFiles/Person.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles --progress-num=5,6 "Built target Person"
-.PHONY : lib/CMakeFiles/Person.dir/all
-
-# Build rule for subdir invocation for target.
-lib/CMakeFiles/Person.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Person.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/3.1/out/CMakeFiles 0
-.PHONY : lib/CMakeFiles/Person.dir/rule
-
-# Convenience name for target.
-Person: lib/CMakeFiles/Person.dir/rule
-.PHONY : Person
-
-# clean rule for target.
-lib/CMakeFiles/Person.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/clean
-.PHONY : lib/CMakeFiles/Person.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -155,32 +155,6 @@ Safety/fast:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/build
 .PHONY : Safety/fast
 
-#=============================================================================
-# Target rules for targets named Date
-
-# Build rule for target.
-Date: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Date
-.PHONY : Date
-
-# fast build rule for target.
-Date/fast:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Date.dir/build.make lib/CMakeFiles/Date.dir/build
-.PHONY : Date/fast
-
-#=============================================================================
-# Target rules for targets named Person
-
-# Build rule for target.
-Person: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Person
-.PHONY : Person
-
-# fast build rule for target.
-Person/fast:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Person.dir/build.make lib/CMakeFiles/Person.dir/build
-.PHONY : Person/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -214,8 +188,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Clothing"
-	@echo "... Date"
-	@echo "... Person"
 	@echo "... Safety"
 	@echo "... main"
 	@echo "... main.o"

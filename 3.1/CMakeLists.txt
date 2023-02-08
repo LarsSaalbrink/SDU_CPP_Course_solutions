@@ -8,6 +8,6 @@ add_subdirectory(lib)
 target_include_directories(${PROJECT_NAME} PRIVATE lib)
 target_link_directories(${PROJECT_NAME} PRIVATE lib)
 
-target_link_libraries(${PROJECT_NAME} Safety Clothing Date Person)
+target_link_libraries(${PROJECT_NAME} Safety Clothing)
 
 

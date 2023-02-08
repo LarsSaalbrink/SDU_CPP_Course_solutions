@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QuadraticEquation.dir/QuadraticEquation.cpp.o"
+  "CMakeFiles/QuadraticEquation.dir/QuadraticEquation.cpp.o.d"
   "libQuadraticEquation.a"
   "libQuadraticEquation.pdb"
 )

@@ -203,12 +203,10 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/sstream.tcc \
   ../lib/Clothing.h \
   ../lib/Safety.h \
-  ../lib/Date.h \
-  ../lib/Person.h \
-  ../lib/Date.h
+  /usr/include/c++/11/limits
 
 
-../lib/Date.h:
+/usr/include/c++/11/limits:
 
 ../lib/Safety.h:
 
@@ -531,8 +529,6 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/11/cctype:
-
-../lib/Person.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
