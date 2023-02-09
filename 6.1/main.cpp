@@ -25,8 +25,7 @@ void getDateInput(Date &weekdayFinder){
     weekdayFinder.setDay(day);
 }
 
-int main()
-{
+int main(){
     Date weekdayFinder = Date();
     
     while(1){

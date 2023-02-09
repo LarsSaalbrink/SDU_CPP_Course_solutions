@@ -60,8 +60,7 @@ void getLoanInfo(Loan &loan){
 
 
 
-int main()
-{
+int main(){
     Options currentChoice;
     Loan loan;
 

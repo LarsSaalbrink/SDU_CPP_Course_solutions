@@ -4,33 +4,31 @@
 #include <string>
 #include <vector>
 
-class Person
-{
+class Person{
 public:
     Person();
     Person(std::string name, std::string number);
 
-    void setName(std::string name);
-    void setNumber(std::string number);
+    void setName(const std::string name);
+    void setNumber(const std::string number);
 
-    std::string getName();
-    std::string getNumber();
+    std::string getName() const;
+    std::string getNumber() const;
 
 protected:
     std::string name;
     std::string number;
 };
 
-class PhoneBook: private Person
-{
+class PhoneBook: private Person{
 public:
     PhoneBook();
     
-    void addPerson(Person person);
-    void removePerson(std::string name);
-    void printPhoneBook();
-    std::vector<Person>::iterator findPerson(std::string name);
-    void printPerson(std::string name);
+    void addPerson(const Person& person);
+    void removePerson(const std::string& name);
+    void printPhoneBook() const;
+    std::vector<Person>::iterator findPerson(const std::string& name) const;
+    void printPerson(const std::string& name) const;
 
 private:
     std::vector<Person> phoneBook;

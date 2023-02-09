@@ -5,7 +5,7 @@
 #include <limits>
 
 template <typename T>
-void getInput(T &var){
+void getInput(T& var){
     while(!(std::cin >> var)){
         std::cout << "Invalid input, please try again.\n";
         std::cin.clear();
@@ -14,7 +14,7 @@ void getInput(T &var){
 };
 
 template <typename T>
-void getWithinLimits(T &var, T min, T max){
+void getWithinLimits(T& var, const T min, const T max){
     do{
         getInput<T>(var);
         if((var < min || var > max)){

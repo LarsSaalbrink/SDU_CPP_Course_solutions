@@ -3,8 +3,7 @@
 #include <sstream>
 
 //-----Unit tests for Vector class-----
-bool regularConstructorTest()
-{
+bool regularConstructorTest(){
     Vector a(3);
 
     try{  //Check if expected elements are present
@@ -28,8 +27,7 @@ bool regularConstructorTest()
     return true;
 }
 
-bool copyConstructorTest()
-{
+bool copyConstructorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -46,8 +44,7 @@ bool copyConstructorTest()
 
 //Adhering to C++11 removes the option of throwing exception from destructor,
 //so test is considered passed if no crash occurs
-bool deconstructorTest() 
-{
+bool deconstructorTest() {
     {
         Vector a(3);
         a[0] = 0;
@@ -57,8 +54,7 @@ bool deconstructorTest()
     return false;
 }
 
-bool copyAssignmentOperatorTest()
-{
+bool copyAssignmentOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -79,8 +75,7 @@ bool copyAssignmentOperatorTest()
     return true;
 }
 
-bool equalityOperatorTest()
-{
+bool equalityOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -98,8 +93,7 @@ bool equalityOperatorTest()
     return true;
 }
 
-bool inequalityOperatorTest()
-{
+bool inequalityOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -117,8 +111,7 @@ bool inequalityOperatorTest()
     return false;
 }
 
-bool additionOperatorTest()
-{
+bool additionOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -143,8 +136,7 @@ bool additionOperatorTest()
     return true;
 }
 
-bool subtractionOperatorTest()
-{
+bool subtractionOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -169,8 +161,7 @@ bool subtractionOperatorTest()
     return true;
 }
 
-bool additionAssignmentOperatorTest()
-{
+bool additionAssignmentOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -195,8 +186,7 @@ bool additionAssignmentOperatorTest()
     return true;
 }
 
-bool subtractionAssignmentOperatorTest()
-{
+bool subtractionAssignmentOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -221,8 +211,7 @@ bool subtractionAssignmentOperatorTest()
     return true;
 }
 
-bool indexOperatorTest()
-{
+bool indexOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -246,8 +235,7 @@ bool indexOperatorTest()
     return true;
 }
 
-bool constIndexOperatorTest()
-{
+bool constIndexOperatorTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;
@@ -273,8 +261,7 @@ bool constIndexOperatorTest()
     return true;
 }
 
-bool streamOperatorsTest()
-{
+bool streamOperatorsTest(){
     //Check if Vector can be inserted into a stream and extracted from a stream
     Vector a(3);
     a[0] = 0;
@@ -307,8 +294,7 @@ bool streamOperatorsTest()
     return true;
 }
 
-bool dotProductTest()
-{
+bool dotProductTest(){
     Vector a(3);
     a[0] = 0;
     a[1] = 1;

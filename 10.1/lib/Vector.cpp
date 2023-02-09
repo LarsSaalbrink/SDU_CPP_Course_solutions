@@ -1,13 +1,11 @@
 #include "Vector.h"
 
-Vector::Vector(int n)
-{
+Vector::Vector(int n){
     mSize = n;
     mElems = new double[n];
 }
 
-Vector::Vector(const Vector& v)  //Copy constructor
-{
+Vector::Vector(const Vector& v){  //Copy constructor
     mSize = v.mSize;
     mElems = new double[mSize];
     for (int i = 0; i < mSize; i++){
@@ -15,8 +13,7 @@ Vector::Vector(const Vector& v)  //Copy constructor
     }
 }
 
-Vector::~Vector()
-{
+Vector::~Vector(){
     if(mElems != nullptr){
         delete[] mElems;
         mSize = 0;
@@ -24,21 +21,20 @@ Vector::~Vector()
 }
 
 //Create a deep copy of rhs (not a shallow copy)
-Vector& Vector::operator=(const Vector& rhs)
-{
+Vector& Vector::operator=(const Vector& rhs){
     if (this != &rhs)  //Check for self-assignment
     {
         delete[] mElems;
         mSize = rhs.mSize;
         mElems = new double[mSize];
-        for (int i = 0; i < mSize; i++)
+        for (int i = 0; i < mSize; i++){
             mElems[i] = rhs.mElems[i];
+        }
     }
     return *this;
 }
 
-bool Vector::operator==(const Vector& rhs)
-{
+bool Vector::operator==(const Vector& rhs){
     if (mSize != rhs.mSize){
         return false;
     }
@@ -51,13 +47,11 @@ bool Vector::operator==(const Vector& rhs)
 }
 
 //Compare contents of two vectors using the == operator overload
-bool Vector::operator!=(const Vector& rhs)
-{
+bool Vector::operator!=(const Vector& rhs){
     return !(*this == rhs);
 }
 
-Vector Vector::operator+(const Vector& rhs)
-{
+Vector Vector::operator+(const Vector& rhs){
     Vector result(mSize);
     for (int i = 0; i < mSize; i++){
         result.mElems[i] = mElems[i] + rhs.mElems[i];
@@ -65,8 +59,7 @@ Vector Vector::operator+(const Vector& rhs)
     return result;
 }
 
-Vector Vector::operator-(const Vector& rhs)
-{
+Vector Vector::operator-(const Vector& rhs){
     Vector result(mSize);
     for (int i = 0; i < mSize; i++){
         result.mElems[i] = mElems[i] - rhs.mElems[i];
@@ -74,40 +67,35 @@ Vector Vector::operator-(const Vector& rhs)
     return result;
 }
 
-Vector& Vector::operator+=(const Vector& rhs)
-{
+Vector& Vector::operator+=(const Vector& rhs){
     for (int i = 0; i < mSize; i++){
         mElems[i] += rhs.mElems[i];
     }
     return *this;
 }
 
-Vector& Vector::operator-=(const Vector& rhs)
-{
+Vector& Vector::operator-=(const Vector& rhs){
     for (int i = 0; i < mSize; i++){
         mElems[i] -= rhs.mElems[i];
     }
     return *this;
 }
 
-double& Vector::operator[](int i)
-{
+double& Vector::operator[](int i){
     if(i < 0 || i >= mSize){
         throw std::out_of_range("Vector index out of range");
     }
     return mElems[i];
 }
 
-const double& Vector::operator[](int i) const
-{
+const double& Vector::operator[](int i) const{
     if(i < 0 || i >= mSize){
         throw std::out_of_range("Vector index out of range");
     }
     return mElems[i];
 }
 
-std::istream& operator>>(std::istream& input, Vector& a)
-{
+std::istream& operator>>(std::istream& input, Vector& a){
     //Keep reading until istream is exhausted or mSize elements read
     for (int i = 0; ((i < a.mSize) && (!input.eof())); i++){
         //Determine if character is a positive number
@@ -131,16 +119,14 @@ std::istream& operator>>(std::istream& input, Vector& a)
     return input;
 }
 
-std::ostream& operator<<(std::ostream& output, const Vector& a)
-{
+std::ostream& operator<<(std::ostream& output, const Vector& a){
     for (int i = 0; i < a.mSize; i++){
         output << a.mElems[i];
     }
     return output;
 }
 
-double dot(const Vector& l, const Vector& r) //Dot product
-{
+double dot(const Vector& l, const Vector& r){ //Dot product
     double result = 0;
     for (int i = 0; i < l.mSize; i++){
         result += l.mElems[i] * r.mElems[i];

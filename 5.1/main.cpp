@@ -41,8 +41,7 @@ void piInteraction(Pi &approx){
     }
 }
 
-int main()
-{
+int main(){
     std::cout << std::setprecision(8);
     Pi approx = Pi();
     

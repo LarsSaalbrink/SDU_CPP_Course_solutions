@@ -1,5 +1,5 @@
 #include "MaclaurinExp.h"
-#include "cmath"
+#include <cmath>
 
 #include <iostream>
 
@@ -9,24 +9,23 @@ Exponential::Exponential() {
     this->exp = 1.0;  //First term of the series is 1
 }
 
-void Exponential::setOrder(int order) {
+void Exponential::setOrder(const int order) {
     this->order = order;
 }
 
-void Exponential::setX(double x) {
+void Exponential::setX(const double x) {
     this->x = x;
 }
 
-double Exponential::getExp() {
+double Exponential::getExp() const{
     return this->exp;
 }
-double Exponential::getX() {
+double Exponential::getX() const{
     return this->x;
 }
 
-double Exponential::fact(int n) {  //Recursive solution
+double Exponential::fact(const int n) {  //Recursive solution
     if(n == 0){
-
         return 1.0;
     }
     else{
@@ -37,10 +36,6 @@ double Exponential::fact(int n) {  //Recursive solution
 void Exponential::calcExp() {
     this->exp = 1.0;  
     for(int i = 1; i <= this->order; i++){
-
-        std::cout << "fact " << i << ": " << fact(i) << std::endl;
-        std::cout << "pow " << i << ": " << pow(this->x, i) << std::endl;
-
         this->exp += (pow(this->x, i) / fact(i));
     }
 }

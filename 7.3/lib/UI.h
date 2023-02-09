@@ -7,6 +7,6 @@ enum Options{
     badOption,
 };
 
-Options choice2(std::string message, char choice1, char choice2);
+Options choice2(std::string message, const char choice1, const char choice2);
 
 #endif // UI_H

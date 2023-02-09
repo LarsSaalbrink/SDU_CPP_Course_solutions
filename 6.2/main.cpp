@@ -20,8 +20,7 @@ double rollDice(int rollAmount){
     return diceRollTally;
 }
 
-int main()
-{    
+int main(){    
     while(1){
         Options currentChoice = choice2("\nRoll dice or exit? (R/E): ", 'R', 'E');
         if(currentChoice == option1){

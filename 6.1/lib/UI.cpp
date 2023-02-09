@@ -2,7 +2,7 @@
 #include <string>
 #include "UI.h"
 
-Options choice2(std::string message, char choice1, char choice2){
+Options choice2(std::string message, const char choice1, const char choice2){
     char choice1_U = toupper(choice1);
     char choice1_l = tolower(choice1);
 

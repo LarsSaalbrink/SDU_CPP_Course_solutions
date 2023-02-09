@@ -1,17 +1,15 @@
 #ifndef MACLAURINEXP_H
 #define MACLAURINEXP_H
-
-class Exponential
-{
+class Exponential{
 public:
     Exponential(); 
 
-    void setOrder(int order);
-    void setX(double x);
-    double fact(int n);
+    void setOrder(const int order);
+    void setX(const double x);
+    double fact(const int n);
     void calcExp();
-    double getX();
-    double getExp();
+    double getX() const;
+    double getExp() const;
 
 private:
     int order;

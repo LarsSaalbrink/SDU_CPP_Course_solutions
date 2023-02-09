@@ -1,2 +1,2 @@
-/usr/bin/ar qc libUnitTestVector.a  CMakeFiles/UnitTestVector.dir/Vector.cpp.o CMakeFiles/UnitTestVector.dir/UnitTest.cpp.o
+/usr/bin/ar qc libUnitTestVector.a CMakeFiles/UnitTestVector.dir/Vector.cpp.o CMakeFiles/UnitTestVector.dir/UnitTest.cpp.o
 /usr/bin/ranlib libUnitTestVector.a

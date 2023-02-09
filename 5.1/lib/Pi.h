@@ -1,14 +1,13 @@
 #ifndef PI_H
 #define PI_H
 
-class Pi
-{
+class Pi{
 public:
     Pi(); 
 
     void setOrder(int order);
     void calcPi();
-    double getPi();
+    double getPi() const;
 
 private:
     int order;

@@ -10,7 +10,7 @@ void Pi::setOrder(int order) {
     this->order = order;
 }
 
-double Pi::getPi() {
+double Pi::getPi() const{
     return this->pi;
 }
 

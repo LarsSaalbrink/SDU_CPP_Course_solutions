@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/10.1
+# Install script for directory: /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/10.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,9 +37,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/10.1/out/lib/cmake_install.cmake")
+  include("/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/10.1/out/lib/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/10.1/out/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/10.1/out/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

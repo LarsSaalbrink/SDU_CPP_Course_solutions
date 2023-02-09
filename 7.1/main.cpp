@@ -14,7 +14,7 @@ void programDone(){
     std::cout << "Thank you for using the program!\n";
 }
 
-double rollDice(int rollAmount, std::vector<int>& histogramBins){
+double rollDice(const int rollAmount, std::vector<int>& histogramBins){
     double diceRollTally = 0;
     for(int i = 0; i < rollAmount; i++){  //Rolling "rollAmount" amount of times
         int roundTally = 0;
@@ -27,8 +27,7 @@ double rollDice(int rollAmount, std::vector<int>& histogramBins){
     return diceRollTally;
 }
 
-int main()
-{    
+int main(){    
     while(1){
         Options currentChoice = choice2("\nRoll dice or exit? (R/E): ", 'R', 'E');
         if(currentChoice == option1){
@@ -37,8 +36,7 @@ int main()
             unsigned int rollAmount = (unsigned int)(-1);
             getWithinLimits(rollAmount, 1U, maxRollAmount);
 
-            //int histogramBins[((amountofDice*6)-4)] = {0};  //Possible values are 5-30, so 26 bins
-            std::vector<int> histogramBins(((amountofDice*6)), 0);
+            std::vector<int> histogramBins(((amountofDice*6)), 0);  //Bins 0-5 not used directly, but simplifies indexing
             double diceRollTally = rollDice(rollAmount, histogramBins);
             std::cout << "Rolling " << rollAmount << " times...\n";
             std::cout << "Total across all rolls of all dice: " << diceRollTally << "\n";

@@ -50,8 +50,7 @@ void expInteraction(Exponential &approx){
     }
 }
 
-int main()
-{
+int main(){
     std::cout << std::setprecision(8);
     Exponential approx = Exponential();
     

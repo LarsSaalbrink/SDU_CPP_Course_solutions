@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLoan.a  CMakeFiles/Loan.dir/Loan.cpp.o
+/usr/bin/ar qc libLoan.a CMakeFiles/Loan.dir/Loan.cpp.o
 /usr/bin/ranlib libLoan.a

@@ -7,8 +7,7 @@
 #define decimals 2
 
 //Mix of danish and english in provided header file from assignment
-class Loan
-{
+class Loan{
 public:
     Loan();
     

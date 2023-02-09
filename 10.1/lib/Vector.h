@@ -3,8 +3,7 @@
 
 #include <iostream>
 
-class Vector
-{
+class Vector{
 public:
     Vector(int n = 0);
     Vector(const Vector& v);  //Copy constructor

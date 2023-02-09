@@ -1,8 +1,7 @@
 #ifndef DATE_H
 #define DATE_H
 
-class Date
-{
+class Date{
 public:
     Date();
     Date(int year, int month, int day);

@@ -1,8 +1,7 @@
 #ifndef SHAPES_H
 #define SHAPES_H
 
-class Shapes
-{
+class Shapes{
 public:
     Shapes();
     
@@ -12,16 +11,14 @@ protected:
     double mArea;
 };
 
-class Circle : public Shapes
-{
+class Circle : public Shapes{
 public:
     Circle(double radius);
 private:
     double mRadius;
 };
 
-class Rectangle : public Shapes
-{
+class Rectangle : public Shapes{
 public:
     Rectangle(double width, double height);
 private:
@@ -29,8 +26,7 @@ private:
     double mHeight;
 };
 
-class Triangle : public Shapes
-{
+class Triangle : public Shapes{
 public:
     Triangle(double base, double height);
 private:

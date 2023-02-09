@@ -14,7 +14,7 @@ void getInput(T &var){
 };
 
 template <typename T>
-void getWithinLimits(T &var, T min, T max){
+void getWithinLimits(T &var, const T min, const T max){
     do{
         getInput<T>(var);
         if((var < min || var > max)){

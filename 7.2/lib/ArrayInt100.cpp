@@ -3,24 +3,21 @@
 #include <iostream>
 
 
-ArrayInt100::ArrayInt100()
-{
+ArrayInt100::ArrayInt100(){
     for (int i = 0; i < 100; i++)
     {
         _array[i] = 0;
     }
 }
 
-void ArrayInt100::fillRandom(int min, int max)
-{
+void ArrayInt100::fillRandom(const int min, const int max){
     for (int i = 0; i < 100; i++)
     {
         _array[i] = (rand() % ((max - min + 1) + min));
     }
 }
 
-int ArrayInt100::findMax()
-{
+int ArrayInt100::findMax() const{ 
     int max = _array[0];
     for (int i = 0; i < 100; i++)
     {
@@ -32,8 +29,7 @@ int ArrayInt100::findMax()
     return max;
 }
 
-void ArrayInt100::print()
-{
+void ArrayInt100::print() const{
     for (int i = 0; i < 100; i++)
     {
         std::cout << _array[i] << ", ";
@@ -41,8 +37,7 @@ void ArrayInt100::print()
     std::cout << std::endl;
 }
 
-unsigned int ArrayInt100::countSpecific(int value)
-{
+unsigned int ArrayInt100::countSpecific(const int value) const{
     unsigned int count = 0;
     for (int i = 0; i < 100; i++)
     {
@@ -54,8 +49,7 @@ unsigned int ArrayInt100::countSpecific(int value)
     return count;
 }
 
-void ArrayInt100::swapAll()
-{
+void ArrayInt100::swapAll(){
     for (int i = 0; i < 50; i++)
     {
         int temp = _array[i];

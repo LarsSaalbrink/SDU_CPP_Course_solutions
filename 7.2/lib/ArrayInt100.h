@@ -1,15 +1,14 @@
 #ifndef ARRAYINT100_H
 #define ARRAYINT100_H
 
-class ArrayInt100
-{
+class ArrayInt100{
 public:
     ArrayInt100();
     
-    void fillRandom(int min, int max);
-    int findMax();
-    void print();
-    unsigned int countSpecific(int value);
+    void fillRandom(const int min, const int max);
+    int findMax() const;
+    void print() const;
+    unsigned int countSpecific(const int value) const;
     void swapAll();
 
 private:
