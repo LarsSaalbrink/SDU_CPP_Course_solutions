@@ -15,7 +15,7 @@ void showExp(Exponential &approx){
 void updateExp(Exponential &approx){  //Value limits prevent overflow of double type
     double x = 101.0;
     while(x > 100.0){
-        std::cout << "Enter values for x: (no larger than |100|)   ";
+        std::cout << "Enter value for x: (no larger than |100|)   ";
         getInput(x);
     }
     int order = 155;

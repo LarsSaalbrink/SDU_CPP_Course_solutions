@@ -1,8 +1,6 @@
 #include "MaclaurinExp.h"
 #include <cmath>
 
-#include <iostream>
-
 Exponential::Exponential() {
     this->order = 0;
     this->x = 0.0;

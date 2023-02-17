@@ -10,7 +10,7 @@ public:
     void setMonth(int month);
     void setDay(int day);
 
-    int getDayOfWeek();
+    int getDayOfWeek() const;
 
 private:
     int _year, _month, _day;  //Should really be unsigned, but assignment insists

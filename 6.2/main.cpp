@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <Safety.h>
 #include <UI.h>
+#include <ctime>
 
 #define amountofDice 5
 #define maxRollAmount 10000000U
@@ -21,12 +22,14 @@ double rollDice(int rollAmount){
 }
 
 int main(){    
+    srand(time(0));
+
     while(1){
         Options currentChoice = choice2("\nRoll dice or exit? (R/E): ", 'R', 'E');
         if(currentChoice == option1){
             //Option 'R' selected
             std::cout << "Choose amount of times to roll the 5 dice, max " << maxRollAmount << ": ";
-            unsigned int rollAmount = (unsigned int)(-1);
+            unsigned int rollAmount = static_cast<unsigned int>(-1);
 
             getWithinLimits(rollAmount, 1U, maxRollAmount);
 

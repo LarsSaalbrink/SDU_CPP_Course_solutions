@@ -4,11 +4,12 @@
 #include <UI.h>
 #include "Matplotlibcpp.h"
 #include <vector>
+#include <ctime>
 
 namespace mp = matplotlibcpp;
 
 #define amountofDice 5
-#define maxRollAmount 500000U
+#define maxRollAmount 65000U
 
 void programDone(){
     std::cout << "Thank you for using the program!\n";
@@ -28,15 +29,17 @@ double rollDice(const int rollAmount, std::vector<int>& histogramBins){
 }
 
 int main(){    
+    srand(time(NULL));
+
     while(1){
         Options currentChoice = choice2("\nRoll dice or exit? (R/E): ", 'R', 'E');
         if(currentChoice == option1){
             //Option 'R' selected
             std::cout << "Choose amount of times to roll the 5 dice, max " << maxRollAmount << ": ";
-            unsigned int rollAmount = (unsigned int)(-1);
+            unsigned int rollAmount = static_cast<unsigned int>(-1);
             getWithinLimits(rollAmount, 1U, maxRollAmount);
 
-            std::vector<int> histogramBins(((amountofDice*6)), 0);  //Bins 0-5 not used directly, but simplifies indexing
+            std::vector<int> histogramBins(((amountofDice*6)+1), 0);  //Bins 0-5 not used directly, but simplifies indexing
             double diceRollTally = rollDice(rollAmount, histogramBins);
             std::cout << "Rolling " << rollAmount << " times...\n";
             std::cout << "Total across all rolls of all dice: " << diceRollTally << "\n";

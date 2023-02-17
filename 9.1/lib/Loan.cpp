@@ -85,7 +85,7 @@ double Loan::totalPaymentTaxDeduction() const{
     return (totalInterestTaxDeducted() + mDebt);
 }
 
-double Loan::bankersRound(double num) const{
+double Loan::bankersRound(double num) const{  //Double check this, == a float is risky !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     num *= 10.0*decimals;
     if(fmod(num, 1) >= 0.5){
         return (ceil(num) / (10.0*decimals));

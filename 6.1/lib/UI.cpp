@@ -25,3 +25,7 @@ Options choice2(std::string message, const char choice1, const char choice2){
     }
 }
 
+void programDone(){
+    std::cout << "Thank you for using the program!\n";
+}
+

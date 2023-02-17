@@ -3,7 +3,7 @@
 
 Pi::Pi() {
     this->order = 0;
-    this->pi = 4;     // 4 is the first term of the series
+    this->pi = 0;     
 }
 
 void Pi::setOrder(int order) {
@@ -15,9 +15,11 @@ double Pi::getPi() const{
 }
 
 void Pi::calcPi() {
-    double term = 4.0;
-    for (double n = 1.0; n <= this->order; n++) {
-        term += (4*((static_cast<double>(pow(-1,n)))*(1.0/(2.0*n+1.0))));
+    double term = 0.0;
+    bool sign = true;
+    for (double n = 0.0; n < this->order; n++) {
+        term += (((sign*2)-1)/((2.0*n)+1.0));
+        sign = !sign;
     }
-    this->pi = term;
+    this->pi = 4*term;
 }

@@ -6,10 +6,6 @@
 #include <string>
 #include <climits>
 
-void programDone(){
-    std::cout << "Thank you for using the program!\n";
-}
-
 void getDateInput(Date &weekdayFinder){
     int year, month, day;
     std::cout << "Please use 1-indexing\n";
