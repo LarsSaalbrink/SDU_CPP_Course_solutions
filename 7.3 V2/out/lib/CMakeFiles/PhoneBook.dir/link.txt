@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPhoneBook.a CMakeFiles/PhoneBook.dir/PhoneBook.cpp.o
+/usr/bin/ranlib libPhoneBook.a
