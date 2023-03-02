@@ -1,2 +1,0 @@
-/usr/bin/ar qc libSafety.a CMakeFiles/Safety.dir/Safety.cpp.o
-/usr/bin/ranlib libSafety.a

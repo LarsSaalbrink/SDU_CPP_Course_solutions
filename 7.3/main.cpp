@@ -10,8 +10,7 @@ void programDone(){
 }
 
 void addInteraction(PhoneBook &phoneBook){
-    std::string name;
-    std::string number;
+    std::string name, number;
     std::cout << "Enter name: ";
     getInput(name);
     std::cout << "Enter number: ";
