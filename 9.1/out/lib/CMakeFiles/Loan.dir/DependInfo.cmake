@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp" "lib/CMakeFiles/Loan.dir/Loan.cpp.o" "gcc" "lib/CMakeFiles/Loan.dir/Loan.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Helpers.cpp" "lib/CMakeFiles/Loan.dir/Helpers.cpp.o" "gcc" "lib/CMakeFiles/Loan.dir/Helpers.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp" "lib/CMakeFiles/Loan.dir/Loan.cpp.o" "gcc" "lib/CMakeFiles/Loan.dir/Loan.cpp.o.d"
   )
 
 # Targets to which this target links.

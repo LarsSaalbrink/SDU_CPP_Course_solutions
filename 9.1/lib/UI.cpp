@@ -25,3 +25,27 @@ Options choice2(std::string message, char choice1, char choice2){
     }
 }
 
+void programDone(){
+    std::cout << "Thank you for using the program!\n";
+}
+
+
+///// User interface specific to assignment 9.1 /////
+Loan* getUserInput(){
+    double debt;
+    int years;
+    int paymentsPerYear;
+    double interestRate;
+    
+    std::cout << "Enter debt: ";
+    std::cin >> debt;
+    std::cout << "Enter years: ";
+    std::cin >> years;
+    std::cout << "Enter payments per year: ";
+    std::cin >> paymentsPerYear;
+    std::cout << "Enter interest rate: ";
+    std::cin >> interestRate;
+    
+    return new Loan(debt, years, paymentsPerYear, interestRate);
+}
+
