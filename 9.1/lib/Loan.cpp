@@ -42,7 +42,7 @@ void Loan::setInterestRate(double rate){
 }
 
 double Loan::totalInterest() const{
-    return bankersRound(((mDebt * mInterestRate) 
+    return bankersRound((mYears*mPaymentsPerYear)*((mDebt * mInterestRate) 
                          / 
                          (1 - pow((1+mInterestRate), -(mYears*mPaymentsPerYear)))), 2);
 }
@@ -61,12 +61,12 @@ void Loan::outputPeriodicalPayments(std::ostream& ost) const{
     determinePeriodicalPayments(periodicalPayments, totalPayment(), totalInterest(),mYears, mPaymentsPerYear);
 
     //Output table with remaining debt, interest paid total, and repayment
-    ost << std::setw(40) << "Remaining debt" << std::setw(30) << "Interest paid total" << std::setw(30) << "Repayment" << std::endl;
+    ost << std::setw(50) << "Remaining debt" << std::setw(40) << "Interest paid total" << std::setw(40) << "Repayment" << std::endl;
     for(int i = 0; i <= mYears*mPaymentsPerYear*3; i += 3){
         std::string period = "Period " + std::to_string(i/3) + ": ";
         ost << period
-            << std::setw(40-period.length()) << *(periodicalPayments + i) 
-            << std::setw(30) << *(periodicalPayments + i + 1)
-            << std::setw(30) << *(periodicalPayments + i + 2) << std::endl;  
+            << std::setw(50-period.length()) << *(periodicalPayments + i) 
+            << std::setw(40) << *(periodicalPayments + i + 1)
+            << std::setw(40) << *(periodicalPayments + i + 2) << std::endl;  
     }
 }

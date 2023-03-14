@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp" "lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o" "gcc" "lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp" "lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o" "gcc" "lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o.d"
   )
 
 # Targets to which this target links.

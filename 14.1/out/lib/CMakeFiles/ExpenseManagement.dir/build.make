@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/ExpenseManagement.dir/depend.make
@@ -72,16 +72,16 @@ include lib/CMakeFiles/ExpenseManagement.dir/flags.make
 lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o: lib/CMakeFiles/ExpenseManagement.dir/flags.make
 lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o: ../lib/ExpenseManagement.cpp
 lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o: lib/CMakeFiles/ExpenseManagement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o -MF CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o.d -o CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o -MF CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o.d -o CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp
 
 lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp > CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp > CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.i
 
 lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp -o CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib/ExpenseManagement.cpp -o CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.s
 
 # Object files for target ExpenseManagement
 ExpenseManagement_OBJECTS = \
@@ -93,19 +93,19 @@ ExpenseManagement_EXTERNAL_OBJECTS =
 lib/libExpenseManagement.a: lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o
 lib/libExpenseManagement.a: lib/CMakeFiles/ExpenseManagement.dir/build.make
 lib/libExpenseManagement.a: lib/CMakeFiles/ExpenseManagement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libExpenseManagement.a"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/ExpenseManagement.dir/cmake_clean_target.cmake
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExpenseManagement.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libExpenseManagement.a"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/ExpenseManagement.dir/cmake_clean_target.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExpenseManagement.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/ExpenseManagement.dir/build: lib/libExpenseManagement.a
 .PHONY : lib/CMakeFiles/ExpenseManagement.dir/build
 
 lib/CMakeFiles/ExpenseManagement.dir/clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/ExpenseManagement.dir/cmake_clean.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/ExpenseManagement.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/ExpenseManagement.dir/clean
 
 lib/CMakeFiles/ExpenseManagement.dir/depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1 /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib/CMakeFiles/ExpenseManagement.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1 /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib/CMakeFiles/ExpenseManagement.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/ExpenseManagement.dir/depend
 

@@ -162,7 +162,6 @@ lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o: ../lib/TrainingSession
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  ../lib/HeartRate.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -192,6 +191,7 @@ lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o: ../lib/TrainingSession
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  ../lib/HeartRate.h \
   /usr/include/c++/11/fstream \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \

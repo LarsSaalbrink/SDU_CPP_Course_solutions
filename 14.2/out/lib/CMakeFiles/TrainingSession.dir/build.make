@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/TrainingSession.dir/depend.make
@@ -72,30 +72,30 @@ include lib/CMakeFiles/TrainingSession.dir/flags.make
 lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o: lib/CMakeFiles/TrainingSession.dir/flags.make
 lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o: ../lib/TrainingSession.cpp
 lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o: lib/CMakeFiles/TrainingSession.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o -MF CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o.d -o CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/TrainingSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o -MF CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o.d -o CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/TrainingSession.cpp
 
 lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TrainingSession.dir/TrainingSession.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/TrainingSession.cpp > CMakeFiles/TrainingSession.dir/TrainingSession.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/TrainingSession.cpp > CMakeFiles/TrainingSession.dir/TrainingSession.cpp.i
 
 lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TrainingSession.dir/TrainingSession.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/TrainingSession.cpp -o CMakeFiles/TrainingSession.dir/TrainingSession.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/TrainingSession.cpp -o CMakeFiles/TrainingSession.dir/TrainingSession.cpp.s
 
 lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o: lib/CMakeFiles/TrainingSession.dir/flags.make
 lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o: ../lib/HeartRate.cpp
 lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o: lib/CMakeFiles/TrainingSession.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o -MF CMakeFiles/TrainingSession.dir/HeartRate.cpp.o.d -o CMakeFiles/TrainingSession.dir/HeartRate.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/HeartRate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o -MF CMakeFiles/TrainingSession.dir/HeartRate.cpp.o.d -o CMakeFiles/TrainingSession.dir/HeartRate.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/HeartRate.cpp
 
 lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TrainingSession.dir/HeartRate.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/HeartRate.cpp > CMakeFiles/TrainingSession.dir/HeartRate.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/HeartRate.cpp > CMakeFiles/TrainingSession.dir/HeartRate.cpp.i
 
 lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TrainingSession.dir/HeartRate.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/HeartRate.cpp -o CMakeFiles/TrainingSession.dir/HeartRate.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib/HeartRate.cpp -o CMakeFiles/TrainingSession.dir/HeartRate.cpp.s
 
 # Object files for target TrainingSession
 TrainingSession_OBJECTS = \
@@ -109,19 +109,19 @@ lib/libTrainingSession.a: lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp
 lib/libTrainingSession.a: lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o
 lib/libTrainingSession.a: lib/CMakeFiles/TrainingSession.dir/build.make
 lib/libTrainingSession.a: lib/CMakeFiles/TrainingSession.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libTrainingSession.a"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/TrainingSession.dir/cmake_clean_target.cmake
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TrainingSession.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libTrainingSession.a"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/TrainingSession.dir/cmake_clean_target.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TrainingSession.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/TrainingSession.dir/build: lib/libTrainingSession.a
 .PHONY : lib/CMakeFiles/TrainingSession.dir/build
 
 lib/CMakeFiles/TrainingSession.dir/clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/TrainingSession.dir/cmake_clean.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/TrainingSession.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/TrainingSession.dir/clean
 
 lib/CMakeFiles/TrainingSession.dir/depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2 /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib/CMakeFiles/TrainingSession.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2 /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib/CMakeFiles/TrainingSession.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/TrainingSession.dir/depend
 

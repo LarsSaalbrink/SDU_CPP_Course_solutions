@@ -57,11 +57,11 @@ int main(int argc, char* argv[]){
     readArgs(argc, argv, fileName, gender, weight, height, VO2Max, age);
 
     //Create TrainingSession object
-    TrainingSession ts(fileName, gender, weight, height, VO2Max, age);
+    TrainingSession ts(fileName, gender, weight, height, VO2Max, age, std::cout);
 
     //Calculate and print results
-    std::cout << "\nTotal time: " << ts.totalTime() << " hours\n";
-    std::cout << "Calories burned (gross): " << ts.calcCalorieBurnGross();
+    std::cout << "\nTotal time: " << ts.totalTime() << " hours\n" << std::endl;
+    std::cout << "Calories burned (gross): " << ts.calcCalorieBurnGross() << std::endl;
     std::cout << "\nCalories burned (net): " << ts.calcCalorieBurnNet() << std::endl;
 
     return 0;

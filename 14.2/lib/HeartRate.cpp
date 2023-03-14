@@ -16,9 +16,9 @@ void HeartRate::setTime(int time) {
     _time = time;
 }
 
-int HeartRate::getHeartRate() {
+int HeartRate::getHeartRate() const {
     return _hr;
 }
-int HeartRate::getTime() {
+int HeartRate::getTime() const {
     return _time;
 }

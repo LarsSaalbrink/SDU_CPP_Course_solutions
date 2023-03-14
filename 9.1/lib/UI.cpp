@@ -43,9 +43,9 @@ Loan* getUserInput(){
     std::cin >> years;
     std::cout << "Enter payments per year: ";
     std::cin >> paymentsPerYear;
-    std::cout << "Enter interest rate: ";
+    std::cout << "Enter yearly interest rate (percent as whole number): ";
     std::cin >> interestRate;
     
-    return new Loan(debt, years, paymentsPerYear, interestRate);
+    return new Loan(debt, years, paymentsPerYear, ((interestRate/100)/paymentsPerYear));
 }
 

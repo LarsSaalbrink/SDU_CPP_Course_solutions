@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib//CMakeFiles/progress.marks
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/lib//CMakeFiles/progress.marks
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/ExpenseManagement.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/ExpenseManagement.dir/rule
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/ExpenseManagement.dir/rule
 .PHONY : lib/CMakeFiles/ExpenseManagement.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ExpenseManagement: lib/CMakeFiles/ExpenseManagement.dir/rule
 
 # fast build rule for target.
 ExpenseManagement/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/build
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/build
 .PHONY : ExpenseManagement/fast
 
 ExpenseManagement.o: ExpenseManagement.cpp.o
@@ -135,7 +135,7 @@ ExpenseManagement.o: ExpenseManagement.cpp.o
 
 # target to build an object file
 ExpenseManagement.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.o
 .PHONY : ExpenseManagement.cpp.o
 
 ExpenseManagement.i: ExpenseManagement.cpp.i
@@ -143,7 +143,7 @@ ExpenseManagement.i: ExpenseManagement.cpp.i
 
 # target to preprocess a source file
 ExpenseManagement.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.i
 .PHONY : ExpenseManagement.cpp.i
 
 ExpenseManagement.s: ExpenseManagement.cpp.s
@@ -151,7 +151,7 @@ ExpenseManagement.s: ExpenseManagement.cpp.s
 
 # target to generate assembly for a file
 ExpenseManagement.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/ExpenseManagement.dir/build.make lib/CMakeFiles/ExpenseManagement.dir/ExpenseManagement.cpp.s
 .PHONY : ExpenseManagement.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

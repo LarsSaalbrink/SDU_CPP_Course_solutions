@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib//CMakeFiles/progress.marks
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/lib//CMakeFiles/progress.marks
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/TrainingSession.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/TrainingSession.dir/rule
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/TrainingSession.dir/rule
 .PHONY : lib/CMakeFiles/TrainingSession.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ TrainingSession: lib/CMakeFiles/TrainingSession.dir/rule
 
 # fast build rule for target.
 TrainingSession/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/build
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/build
 .PHONY : TrainingSession/fast
 
 HeartRate.o: HeartRate.cpp.o
@@ -135,7 +135,7 @@ HeartRate.o: HeartRate.cpp.o
 
 # target to build an object file
 HeartRate.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.o
 .PHONY : HeartRate.cpp.o
 
 HeartRate.i: HeartRate.cpp.i
@@ -143,7 +143,7 @@ HeartRate.i: HeartRate.cpp.i
 
 # target to preprocess a source file
 HeartRate.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.i
 .PHONY : HeartRate.cpp.i
 
 HeartRate.s: HeartRate.cpp.s
@@ -151,7 +151,7 @@ HeartRate.s: HeartRate.cpp.s
 
 # target to generate assembly for a file
 HeartRate.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/HeartRate.cpp.s
 .PHONY : HeartRate.cpp.s
 
 TrainingSession.o: TrainingSession.cpp.o
@@ -159,7 +159,7 @@ TrainingSession.o: TrainingSession.cpp.o
 
 # target to build an object file
 TrainingSession.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.o
 .PHONY : TrainingSession.cpp.o
 
 TrainingSession.i: TrainingSession.cpp.i
@@ -167,7 +167,7 @@ TrainingSession.i: TrainingSession.cpp.i
 
 # target to preprocess a source file
 TrainingSession.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.i
 .PHONY : TrainingSession.cpp.i
 
 TrainingSession.s: TrainingSession.cpp.s
@@ -175,7 +175,7 @@ TrainingSession.s: TrainingSession.cpp.s
 
 # target to generate assembly for a file
 TrainingSession.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/TrainingSession.dir/build.make lib/CMakeFiles/TrainingSession.dir/TrainingSession.cpp.s
 .PHONY : TrainingSession.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/14.2/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

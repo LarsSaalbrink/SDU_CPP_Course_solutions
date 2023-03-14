@@ -1,6 +1,8 @@
 #ifndef HEARTRATE_H
 #define HEARTRATE_H
 
+//Somewhat silly class dictated by assignment,
+//a struct, std::pair, array or std::vector would have been sufficient
 class HeartRate {
 public:
     HeartRate();
@@ -9,8 +11,8 @@ public:
     void setHeartRate(int hr);
     void setTime(int time);
 
-    int getHeartRate();
-    int getTime();
+    int getHeartRate() const;
+    int getTime() const;
 
 private:
     int _hr, _time;

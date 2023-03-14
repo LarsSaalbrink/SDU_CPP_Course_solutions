@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
     //Set decimal precision to 2
     std::cout << std::cout.precision(2) << std::fixed << "\b";
 
-    ExpenseManagement expenseManager(fileName, categoriesFileName);
+    ExpenseManagement expenseManager(fileName, categoriesFileName, std::cout);
 
     //Print which supermarket receipt is from
     std::string supermarket = expenseManager.determineSupermarket();

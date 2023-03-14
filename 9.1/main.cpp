@@ -8,6 +8,8 @@
 
 #include "Helpers.h"
 
+//Output benytter ikke den korrekte matematik!
+
 int main(){
     //2 decimal places
     std::cout << std::fixed << std::setprecision(2);

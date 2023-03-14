@@ -3,29 +3,32 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
 #include "HeartRate.h"
 
 class TrainingSession {
 public:
     TrainingSession();
-    TrainingSession(std::string filename,
+    TrainingSession(std::string& filename,
                     bool gender, 
                     unsigned int weight,
                     unsigned int height,
                     unsigned int VO2Max,
-                    unsigned int age);
+                    unsigned int age,
+                    std::ostream& msgPipe);
     
-    void readData(std::string filename);
+    void readData(std::string& filename);
 
-    double calcCalorieBurnNet();
-    double calcCalorieBurnGross();
-    double calcBMR();
-    double totalTime();
+    double calcCalorieBurnNet() const;
+    double calcCalorieBurnGross() const;
+    double calcBMR() const;
+    double totalTime() const;
 
 private:
     std::vector<HeartRate> _hr;
     bool _gender;
     unsigned int _weight, _height, _VO2Max, _age, _hrAvg;
+    std::ostream& _msgPipe;
 };
 
 #endif // TRAININGSESSION_H
