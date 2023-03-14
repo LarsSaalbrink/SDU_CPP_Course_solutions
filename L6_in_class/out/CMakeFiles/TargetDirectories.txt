@@ -1,0 +1,7 @@
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/CMakeFiles/main.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/CMakeFiles/edit_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/CMakeFiles/rebuild_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/lib/CMakeFiles/Safety.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/lib/CMakeFiles/UI.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/lib/CMakeFiles/edit_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L6_in_class/out/lib/CMakeFiles/rebuild_cache.dir

@@ -186,9 +186,7 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h
+  /usr/include/c++/11/bits/vector.tcc
 
 
 /usr/include/c++/11/bits/vector.tcc:
@@ -275,8 +273,6 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/11/bits/stream_iterator.h:
-
 /usr/include/ctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
@@ -346,8 +342,6 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/11/iterator:
 
 /usr/include/c++/11/ostream:
 

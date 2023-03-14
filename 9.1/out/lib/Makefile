@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib//CMakeFiles/progress.marks
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib//CMakeFiles/progress.marks
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/Safety.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Safety.dir/rule
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Safety.dir/rule
 .PHONY : lib/CMakeFiles/Safety.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ Safety: lib/CMakeFiles/Safety.dir/rule
 
 # fast build rule for target.
 Safety/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/build
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/build
 .PHONY : Safety/fast
 
 # Convenience name for target.
 lib/CMakeFiles/UI.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/UI.dir/rule
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/UI.dir/rule
 .PHONY : lib/CMakeFiles/UI.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ UI: lib/CMakeFiles/UI.dir/rule
 
 # fast build rule for target.
 UI/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/build
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/build
 .PHONY : UI/fast
 
 # Convenience name for target.
 lib/CMakeFiles/Loan.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Loan.dir/rule
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/Loan.dir/rule
 .PHONY : lib/CMakeFiles/Loan.dir/rule
 
 # Convenience name for target.
@@ -155,15 +155,39 @@ Loan: lib/CMakeFiles/Loan.dir/rule
 
 # fast build rule for target.
 Loan/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/build
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/build
 .PHONY : Loan/fast
+
+Helpers.o: Helpers.cpp.o
+.PHONY : Helpers.o
+
+# target to build an object file
+Helpers.cpp.o:
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Helpers.cpp.o
+.PHONY : Helpers.cpp.o
+
+Helpers.i: Helpers.cpp.i
+.PHONY : Helpers.i
+
+# target to preprocess a source file
+Helpers.cpp.i:
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Helpers.cpp.i
+.PHONY : Helpers.cpp.i
+
+Helpers.s: Helpers.cpp.s
+.PHONY : Helpers.s
+
+# target to generate assembly for a file
+Helpers.cpp.s:
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Helpers.cpp.s
+.PHONY : Helpers.cpp.s
 
 Loan.o: Loan.cpp.o
 .PHONY : Loan.o
 
 # target to build an object file
 Loan.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Loan.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Loan.cpp.o
 .PHONY : Loan.cpp.o
 
 Loan.i: Loan.cpp.i
@@ -171,7 +195,7 @@ Loan.i: Loan.cpp.i
 
 # target to preprocess a source file
 Loan.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Loan.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Loan.cpp.i
 .PHONY : Loan.cpp.i
 
 Loan.s: Loan.cpp.s
@@ -179,7 +203,7 @@ Loan.s: Loan.cpp.s
 
 # target to generate assembly for a file
 Loan.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Loan.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Loan.dir/build.make lib/CMakeFiles/Loan.dir/Loan.cpp.s
 .PHONY : Loan.cpp.s
 
 Safety.o: Safety.cpp.o
@@ -187,7 +211,7 @@ Safety.o: Safety.cpp.o
 
 # target to build an object file
 Safety.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/Safety.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/Safety.cpp.o
 .PHONY : Safety.cpp.o
 
 Safety.i: Safety.cpp.i
@@ -195,7 +219,7 @@ Safety.i: Safety.cpp.i
 
 # target to preprocess a source file
 Safety.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/Safety.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/Safety.cpp.i
 .PHONY : Safety.cpp.i
 
 Safety.s: Safety.cpp.s
@@ -203,7 +227,7 @@ Safety.s: Safety.cpp.s
 
 # target to generate assembly for a file
 Safety.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/Safety.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/Safety.dir/build.make lib/CMakeFiles/Safety.dir/Safety.cpp.s
 .PHONY : Safety.cpp.s
 
 UI.o: UI.cpp.o
@@ -211,7 +235,7 @@ UI.o: UI.cpp.o
 
 # target to build an object file
 UI.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/UI.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/UI.cpp.o
 .PHONY : UI.cpp.o
 
 UI.i: UI.cpp.i
@@ -219,7 +243,7 @@ UI.i: UI.cpp.i
 
 # target to preprocess a source file
 UI.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/UI.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/UI.cpp.i
 .PHONY : UI.cpp.i
 
 UI.s: UI.cpp.s
@@ -227,7 +251,7 @@ UI.s: UI.cpp.s
 
 # target to generate assembly for a file
 UI.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/UI.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/UI.dir/build.make lib/CMakeFiles/UI.dir/UI.cpp.s
 .PHONY : UI.cpp.s
 
 # Help Target
@@ -241,6 +265,9 @@ help:
 	@echo "... Loan"
 	@echo "... Safety"
 	@echo "... UI"
+	@echo "... Helpers.o"
+	@echo "... Helpers.i"
+	@echo "... Helpers.s"
 	@echo "... Loan.o"
 	@echo "... Loan.i"
 	@echo "... Loan.s"
@@ -261,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

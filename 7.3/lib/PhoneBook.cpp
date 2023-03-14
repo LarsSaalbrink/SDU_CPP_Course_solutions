@@ -10,16 +10,16 @@ Person::Person(){
     number = "[No number provided]";
 }
 
-Person::Person(std::string name, std::string number){
+Person::Person(std::string& name, std::string& number){
     this->name = name;
     this->number = number;
 }
 
-void Person::setNumber(const std::string number){
+void Person::setNumber(const std::string& number){
     this->number = number;
 }
 
-void Person::setName(const std::string name){
+void Person::setName(const std::string& name){
     this->name = name;
 }
 
@@ -45,24 +45,24 @@ void PhoneBook::addPerson(const Person& person){
 }
 
 void PhoneBook::printPhoneBook() const{
-    for (int i = 0; i < phoneBook.size(); i++)
-    {
+    int phoneBookSize = phoneBook.size();
+    for (int i = 0; i < phoneBookSize; i++){
         std::cout << phoneBook[i].getName() << " - " << phoneBook[i].getNumber() << std::endl;
     }
 }
 
 //Find person, return vector iterator to their position in the phoneBook vector
+//If incomplete name is provided, return the first person with a name that matches the given string
 std::vector<Person>::iterator PhoneBook::findPerson(const std::string& name) const{
-    for (int person = 0; person < phoneBook.size(); person++)
-    {
-        for(int letter = 0; letter < name.length(); letter++)
-        {
-            if (phoneBook[person].getName()[letter] != name[letter])
-            {
+    for (int person = 0; person < phoneBook.size(); person++){
+        std::string personName = phoneBook[person].getName();
+        int nameLength = name.length();
+
+        for(int letter = 0; letter < nameLength; letter++){
+            if (personName[letter] != name[letter]){
                 break;
             }
-            else if (letter == name.length() - 1)
-            {
+            else if (letter == nameLength - 1){
                 //Obtain pointer to vector "phoneBook", 
                 //discard constness (function is const, so member variables are considered const), 
                 //apply .begin() to get iterator to start of vector,
@@ -77,12 +77,10 @@ std::vector<Person>::iterator PhoneBook::findPerson(const std::string& name) con
 
 void PhoneBook::printPerson(const std::string& name) const{
     std::vector<Person>::iterator person = findPerson(name);
-    if(person != phoneBook.end())
-    {
+    if(person != phoneBook.end()){
         std::cout << person->getName() << " - " << person->getNumber() << std::endl;
     }
-    else
-    {
+    else{
         std::cout << "Person not found" << std::endl;
     }
 }
@@ -90,12 +88,10 @@ void PhoneBook::printPerson(const std::string& name) const{
 //erase person using findPerson
 void PhoneBook::removePerson(const std::string& name){
     std::vector<Person>::iterator person = findPerson(name);
-    if(person != phoneBook.end())
-    {
+    if(person != phoneBook.end()){
         phoneBook.erase(person);
     }
-    else
-    {
+    else{
         std::cout << "Person not found" << std::endl;
     }
 }

@@ -1,6 +1,8 @@
-#include "Loan.h"
-#include <cstdlib>
 #include <cmath>
+#include <iostream>
+#include <iomanip>
+#include "Loan.h"
+#include "Helpers.h"
 
 Loan::Loan(){}
 
@@ -39,84 +41,32 @@ void Loan::setInterestRate(double rate){
     mInterestRate = rate;
 }
 
-double Loan::getAdminFee() const{
-    return adminFee;
-}
-void Loan::setAdminFee(double fee){
-    adminFee = fee;
-}
-
-double Loan::getFixedCosts() const{
-    return fixedCosts;
-}
-void Loan::setFixedCosts(double costs){
-    fixedCosts = costs;
-}
-
-double Loan::interrest() const{
-    return ((mDebt * mInterestRate) / (1 - pow((1 + mInterestRate), (-mYears * mPaymentsPerYear))));
-}
-
-double Loan::interrestWithAdmin() const{
-    return ((mDebt * (mInterestRate + adminFee)) / (1 - pow((1 + mInterestRate + adminFee), (-mYears * mPaymentsPerYear))));
-}
-
 double Loan::totalInterest() const{
-    return (totalPayment() - mDebt - fixedCosts);
-}
-
-double Loan::totalInterestWithAdmin() const{
-    return (totalPaymentWithAdmin() - mDebt - fixedCosts);
+    return bankersRound((mYears*mPaymentsPerYear)*((mDebt * mInterestRate) 
+                         / 
+                         (1 - pow((1+mInterestRate), -(mYears*mPaymentsPerYear)))), 2);
 }
 
 double Loan::totalPayment() const{
-    return ((interrest()*mYears*mPaymentsPerYear)+fixedCosts);
+    return bankersRound((mDebt + totalInterest()), 2);
 }
 
-double Loan::totalPaymentWithAdmin() const{
-    return ((interrestWithAdmin()*mYears*mPaymentsPerYear)+fixedCosts);
+double Loan::totalInterestTaxDeducted(double taxDeductionRate) const{
+    return bankersRound((totalInterest() * (1-taxDeductionRate)), 2);
 }
 
-double Loan::totalInterestTaxDeducted() const{
-    return ((totalInterest() * percentAfterDeduction) + (totalPaymentWithAdmin() - totalPayment()));  //Admin fee is not tax deductible
-}
+void Loan::outputPeriodicalPayments(std::ostream& ost) const{
+    double periodicalPayments[(mYears*mPaymentsPerYear*3)+3];  //+3 for period 0
 
-double Loan::totalPaymentTaxDeduction() const{
-    return (totalInterestTaxDeducted() + mDebt);
-}
+    determinePeriodicalPayments(periodicalPayments, totalPayment(), totalInterest(),mYears, mPaymentsPerYear);
 
-double Loan::bankersRound(double num) const{  //Double check this, == a float is risky !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    num *= 10.0*decimals;
-    if(fmod(num, 1) >= 0.5){
-        return (ceil(num) / (10.0*decimals));
-    }
-    else{
-        return (floor(num) / (10.0*decimals));
-    }
-}
-
-void Loan::outputPeriodicalPayments (std::ostream& ost) const{
-    //set precision
-    ost.setf(std::ios::fixed);
-    ost.precision(decimals);
-    
-    //Calculate and Print table of payment number, remaining debt, interest and repayment paid each quarter. Starting from year 0 to mYears
-    unsigned int paymentNumber = 0;
-    double remainingDebt = mDebt;
-    double repayment = interrest();
-
-    ost << "Fixed costs (payment 0): " << fixedCosts << std::endl;
-    ost << "Payment number\tRemaining debt\tInterest\tRepayment self\tTax rebate\tTotal repayment" << std::endl;
-    for(int i = 0; i < mYears; i++){
-        for(int j = 0; j < mPaymentsPerYear; j++){
-            paymentNumber++;
-            remainingDebt = (remainingDebt - repayment + (remainingDebt * mInterestRate));
-            ost << paymentNumber << "\t\t" 
-                << remainingDebt << "\t\t" 
-                << bankersRound(remainingDebt * mInterestRate) 
-                << "\t\t" << bankersRound(repayment*percentAfterDeduction) 
-                << "\t\t" << bankersRound(repayment*(1-percentAfterDeduction)) 
-                << "\t\t" << bankersRound(repayment) << std::endl;
-        }
+    //Output table with remaining debt, interest paid total, and repayment
+    ost << std::setw(50) << "Remaining debt" << std::setw(40) << "Interest paid total" << std::setw(40) << "Repayment" << std::endl;
+    for(int i = 0; i <= mYears*mPaymentsPerYear*3; i += 3){
+        std::string period = "Period " + std::to_string(i/3) + ": ";
+        ost << period
+            << std::setw(50-period.length()) << *(periodicalPayments + i) 
+            << std::setw(40) << *(periodicalPayments + i + 1)
+            << std::setw(40) << *(periodicalPayments + i + 2) << std::endl;  
     }
 }

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/UI.cpp" "lib/CMakeFiles/UI.dir/UI.cpp.o" "gcc" "lib/CMakeFiles/UI.dir/UI.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/UI.cpp" "lib/CMakeFiles/UI.dir/UI.cpp.o" "gcc" "lib/CMakeFiles/UI.dir/UI.cpp.o.d"
   )
 
 # Targets to which this target links.

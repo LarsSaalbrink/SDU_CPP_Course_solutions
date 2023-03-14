@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/Loan.dir/depend.make
@@ -72,40 +72,56 @@ include lib/CMakeFiles/Loan.dir/flags.make
 lib/CMakeFiles/Loan.dir/Loan.cpp.o: lib/CMakeFiles/Loan.dir/flags.make
 lib/CMakeFiles/Loan.dir/Loan.cpp.o: ../lib/Loan.cpp
 lib/CMakeFiles/Loan.dir/Loan.cpp.o: lib/CMakeFiles/Loan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/Loan.dir/Loan.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Loan.dir/Loan.cpp.o -MF CMakeFiles/Loan.dir/Loan.cpp.o.d -o CMakeFiles/Loan.dir/Loan.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/Loan.dir/Loan.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Loan.dir/Loan.cpp.o -MF CMakeFiles/Loan.dir/Loan.cpp.o.d -o CMakeFiles/Loan.dir/Loan.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp
 
 lib/CMakeFiles/Loan.dir/Loan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Loan.dir/Loan.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp > CMakeFiles/Loan.dir/Loan.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp > CMakeFiles/Loan.dir/Loan.cpp.i
 
 lib/CMakeFiles/Loan.dir/Loan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Loan.dir/Loan.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp -o CMakeFiles/Loan.dir/Loan.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Loan.cpp -o CMakeFiles/Loan.dir/Loan.cpp.s
+
+lib/CMakeFiles/Loan.dir/Helpers.cpp.o: lib/CMakeFiles/Loan.dir/flags.make
+lib/CMakeFiles/Loan.dir/Helpers.cpp.o: ../lib/Helpers.cpp
+lib/CMakeFiles/Loan.dir/Helpers.cpp.o: lib/CMakeFiles/Loan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/Loan.dir/Helpers.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/Loan.dir/Helpers.cpp.o -MF CMakeFiles/Loan.dir/Helpers.cpp.o.d -o CMakeFiles/Loan.dir/Helpers.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Helpers.cpp
+
+lib/CMakeFiles/Loan.dir/Helpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Loan.dir/Helpers.cpp.i"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Helpers.cpp > CMakeFiles/Loan.dir/Helpers.cpp.i
+
+lib/CMakeFiles/Loan.dir/Helpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Loan.dir/Helpers.cpp.s"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib/Helpers.cpp -o CMakeFiles/Loan.dir/Helpers.cpp.s
 
 # Object files for target Loan
 Loan_OBJECTS = \
-"CMakeFiles/Loan.dir/Loan.cpp.o"
+"CMakeFiles/Loan.dir/Loan.cpp.o" \
+"CMakeFiles/Loan.dir/Helpers.cpp.o"
 
 # External object files for target Loan
 Loan_EXTERNAL_OBJECTS =
 
 lib/libLoan.a: lib/CMakeFiles/Loan.dir/Loan.cpp.o
+lib/libLoan.a: lib/CMakeFiles/Loan.dir/Helpers.cpp.o
 lib/libLoan.a: lib/CMakeFiles/Loan.dir/build.make
 lib/libLoan.a: lib/CMakeFiles/Loan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLoan.a"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/Loan.dir/cmake_clean_target.cmake
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Loan.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLoan.a"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/Loan.dir/cmake_clean_target.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Loan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/Loan.dir/build: lib/libLoan.a
 .PHONY : lib/CMakeFiles/Loan.dir/build
 
 lib/CMakeFiles/Loan.dir/clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/Loan.dir/cmake_clean.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/Loan.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/Loan.dir/clean
 
 lib/CMakeFiles/Loan.dir/depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1 /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib/CMakeFiles/Loan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1 /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/9.1/out/lib/CMakeFiles/Loan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/Loan.dir/depend
 

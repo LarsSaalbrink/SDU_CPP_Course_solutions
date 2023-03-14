@@ -9,7 +9,7 @@
 namespace mp = matplotlibcpp;
 
 #define amountofDice 5
-#define maxRollAmount 65000U
+#define maxRollAmount 65535U
 
 void programDone(){
     std::cout << "Thank you for using the program!\n";

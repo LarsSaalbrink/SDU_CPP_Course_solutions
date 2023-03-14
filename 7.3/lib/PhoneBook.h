@@ -7,10 +7,10 @@
 class Person{
 public:
     Person();
-    Person(std::string name, std::string number);
+    Person(std::string& name, std::string& number);
 
-    void setName(const std::string name);
-    void setNumber(const std::string number);
+    void setName(const std::string& name);
+    void setNumber(const std::string& number);
 
     std::string getName() const;
     std::string getNumber() const;
