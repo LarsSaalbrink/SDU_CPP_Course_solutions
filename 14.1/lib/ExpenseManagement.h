@@ -17,7 +17,7 @@ struct category_t
 
 class ExpenseManagement {
     public:
-        ExpenseManagement(std::string& fileName, std::string& categoriesFileName, std::ostream& messageStream);
+        explicit ExpenseManagement(std::string& fileName, std::string& categoriesFileName, std::ostream& messageStream);
 
         bool importFromTxtFile(std::string& fileName, bool iscategoriesFile);
         std::string determineSupermarket();

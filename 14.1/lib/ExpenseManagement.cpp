@@ -254,6 +254,8 @@ void ExpenseManagement::decodeReceipt(){
     else{
         _messageStream << "Unsupported supermarket: " << supermarket << std::endl;
     }
+    //When done, clear the storageString vector to free up memory
+    _storageString.clear();
 }
 
 void ExpenseManagement::printCategories() const{

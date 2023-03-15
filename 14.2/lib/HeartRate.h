@@ -5,8 +5,8 @@
 //a struct, std::pair, array or std::vector would have been sufficient
 class HeartRate {
 public:
-    HeartRate();
-    HeartRate(int hr, int time);
+    explicit HeartRate();
+    explicit HeartRate(int hr, int time);
 
     void setHeartRate(int hr);
     void setTime(int time);

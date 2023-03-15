@@ -8,14 +8,14 @@
 
 class TrainingSession {
 public:
-    TrainingSession();
-    TrainingSession(std::string& filename,
-                    bool gender, 
-                    unsigned int weight,
-                    unsigned int height,
-                    unsigned int VO2Max,
-                    unsigned int age,
-                    std::ostream& msgPipe);
+    explicit TrainingSession();
+    explicit TrainingSession(std::string& filename,
+                             bool gender, 
+                             unsigned int weight,
+                             unsigned int height,
+                             unsigned int VO2Max,
+                             unsigned int age,
+                             std::ostream& msgPipe);
     
     void readData(std::string& filename);
 

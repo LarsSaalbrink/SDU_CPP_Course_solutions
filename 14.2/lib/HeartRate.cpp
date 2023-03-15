@@ -1,12 +1,8 @@
 #include "HeartRate.h"
 
-HeartRate::HeartRate() {
-    _hr = 0;
-    _time = 0;
+HeartRate::HeartRate() : _hr(0), _time(0){
 }
-HeartRate::HeartRate(int hr, int time) {
-    _hr = hr;
-    _time = time;
+HeartRate::HeartRate(int hr, int time) : _hr(hr), _time(time){
 }
 
 void HeartRate::setHeartRate(int hr) {

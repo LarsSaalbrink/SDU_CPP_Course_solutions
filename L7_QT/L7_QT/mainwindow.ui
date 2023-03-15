@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lblName">
+        <property name="text">
+         <string>&amp;Navn</string>
+        </property>
+        <property name="buddy">
+         <cstring>leName</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="leName"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lblAddress">
+        <property name="text">
+         <string>&amp;Adresse</string>
+        </property>
+        <property name="buddy">
+         <cstring>leAddress</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="leAddress"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="lblAddress2">
+        <property name="text">
+         <string>Adresse &amp;2</string>
+        </property>
+        <property name="buddy">
+         <cstring>leAddress2</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="leAddress2"/>
+      </item>
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="leZipcode">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>1</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lblCity">
+          <property name="styleSheet">
+           <string notr="true">margin-left:2em</string>
+          </property>
+          <property name="text">
+           <string>&amp;By</string>
+          </property>
+          <property name="buddy">
+           <cstring>leCity</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="leCity">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>3</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="lblZipcode">
+        <property name="text">
+         <string>Post &amp;nr.</string>
+        </property>
+        <property name="buddy">
+         <cstring>leZipcode</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lblPhone">
+        <property name="text">
+         <string>&amp;Tlf. nr.</string>
+        </property>
+        <property name="buddy">
+         <cstring>lePhone</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="lePhone"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <spacer name="spcrBtnbar">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>leName</tabstop>
+  <tabstop>leAddress</tabstop>
+  <tabstop>leAddress2</tabstop>
+  <tabstop>leZipcode</tabstop>
+  <tabstop>leCity</tabstop>
+  <tabstop>lePhone</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>leName</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leAddress</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leAddress</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leAddress2</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leAddress2</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leZipcode</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leName</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leAddress</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leAddress</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leAddress2</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leAddress2</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leZipcode</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leZipcode</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leCity</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>541</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leZipcode</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leCity</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>541</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leCity</sender>
+   <signal>returnPressed()</signal>
+   <receiver>lePhone</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>541</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leCity</sender>
+   <signal>returnPressed()</signal>
+   <receiver>lePhone</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>541</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lePhone</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leName</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lePhone</sender>
+   <signal>returnPressed()</signal>
+   <receiver>leName</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
