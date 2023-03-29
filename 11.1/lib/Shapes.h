@@ -5,7 +5,7 @@ class Shapes{
 public:
     Shapes();
     
-    double area() const;
+    const double area() const;
 
 protected:
     double mArea;

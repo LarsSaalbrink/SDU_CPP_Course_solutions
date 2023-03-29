@@ -2,8 +2,7 @@
 #include <cmath>
 #include <stdexcept>
 
-BasicTicket::BasicTicket()
-{
+BasicTicket::BasicTicket(){
     seat = 0;
     ticketNumber = 0;
     city = "[No city provided]";
@@ -13,10 +12,9 @@ BasicTicket::BasicTicket()
 
 BasicTicket::BasicTicket(unsigned int seat, 
                          unsigned int ticketNumber, 
-                         std::string city, 
-                         std::string opera, 
-                         double price)
-{
+                         const std::string& city, 
+                         const std::string& opera, 
+                         double price){
     this->seat = seat;
     this->ticketNumber = ticketNumber;
     this->city = city;
@@ -24,69 +22,56 @@ BasicTicket::BasicTicket(unsigned int seat,
     this->price = price;
 }
 
-unsigned int BasicTicket::getSeat() const
-{
+const unsigned int BasicTicket::getSeat() const{
     return seat;
 }
-void BasicTicket::setSeat(unsigned int value)
-{
+void BasicTicket::setSeat(unsigned int value){
     seat = value;
 }
 
-unsigned int BasicTicket::getTicketNumber() const
-{
+const unsigned int BasicTicket::getTicketNumber() const{
     return ticketNumber;
 }
-void BasicTicket::setTicketNumber(unsigned int value)
-{
+void BasicTicket::setTicketNumber(unsigned int value){
     ticketNumber = value;
 }
 
-std::string BasicTicket::getCity() const
-{
+const std::string& BasicTicket::getCity() const{
     return city;
 }
-void BasicTicket::setCity(const std::string &value)
-{
+void BasicTicket::setCity(const std::string& value){
     city = value;
 }
 
-std::string BasicTicket::getOpera() const
-{
+const std::string& BasicTicket::getOpera() const{
     return opera;
 }
-void BasicTicket::setOpera(const std::string &value)
-{
+void BasicTicket::setOpera(const std::string& value){
     opera = value;
 }
 
-double BasicTicket::getPrice() const
-{
+const double BasicTicket::getPrice() const{
     return price;
 }
-void BasicTicket::setPrice(double value)
-{
+void BasicTicket::setPrice(double value){
     price = value;
 }
 
 
-FloorTicket::FloorTicket() : BasicTicket()
-{
-    //Call the base class default constructor
+FloorTicket::FloorTicket() : BasicTicket(){
+    //Call the base class default constructor as defined by header
 }
 
 FloorTicket::FloorTicket(unsigned int seat, 
                          unsigned int ticketNumber, 
-                         std::string city, 
-                         std::string opera, 
+                         const std::string& city, 
+                         const std::string& opera, 
                          double price) 
-                        : BasicTicket(seat, ticketNumber, city, opera, price)
-{
+                        : BasicTicket(seat, ticketNumber, city, opera, price){
     //Call the base class constructor with parameters
 }
 
-double FloorTicket::getPrice() const
-{
+const double FloorTicket::getPrice() const{
     double floorPriceFactor = 1.3;
 
     //return price * floorPriceFactor rounded up to 2 decimal places

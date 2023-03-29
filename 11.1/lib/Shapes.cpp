@@ -4,7 +4,7 @@
 
 Shapes::Shapes(){}
 
-double Shapes::area() const{
+const double Shapes::area() const{
     return mArea;
 }
 

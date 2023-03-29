@@ -17,7 +17,7 @@ public:
     const std::string& name() const;
 
     // Area
-    virtual double area() const = 0;
+    virtual const double area() const = 0;
 
 protected:
    std::string _name;
@@ -27,7 +27,7 @@ class Circle: public Shapes
 {
 public:
     Circle(double radius);
-    double area() const;
+    const double area() const;
 
     double mRadius;
 };
@@ -36,7 +36,7 @@ class Rectangle: public Shapes
 {
 public:
     Rectangle(double width, double height);
-    double area() const;
+    const double area() const;
 
     double mWidth;
     double mHeight;
@@ -46,7 +46,7 @@ class Triangle: public Shapes
 {
 public:
     Triangle(double base, double height);
-    double area() const;
+    const double area() const;
 
     double mBase;
     double mHeight;

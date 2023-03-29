@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Ticket.dir/Ticket.cpp.o"
+  "CMakeFiles/Ticket.dir/Ticket.cpp.o.d"
   "libTicket.a"
   "libTicket.pdb"
 )

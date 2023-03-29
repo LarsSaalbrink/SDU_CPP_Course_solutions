@@ -1,0 +1,3 @@
+/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L7_in_class/out/CMakeFiles/main.exe.dir
+/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L7_in_class/out/CMakeFiles/edit_cache.dir
+/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/L7_in_class/out/CMakeFiles/rebuild_cache.dir
