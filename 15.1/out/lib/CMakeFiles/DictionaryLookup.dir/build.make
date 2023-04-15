@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/DictionaryLookup.dir/depend.make
@@ -72,44 +72,44 @@ include lib/CMakeFiles/DictionaryLookup.dir/flags.make
 lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o: lib/CMakeFiles/DictionaryLookup.dir/flags.make
 lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o: ../lib/DictionaryLookup.cpp
 lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o: lib/CMakeFiles/DictionaryLookup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o -MF CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o.d -o CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o -MF CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o.d -o CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp
 
 lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp > CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp > CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.i
 
 lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp -o CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp -o CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.s
 
 lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o: lib/CMakeFiles/DictionaryLookup.dir/flags.make
 lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o: ../lib/Safety.cpp
 lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o: lib/CMakeFiles/DictionaryLookup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o -MF CMakeFiles/DictionaryLookup.dir/Safety.cpp.o.d -o CMakeFiles/DictionaryLookup.dir/Safety.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o -MF CMakeFiles/DictionaryLookup.dir/Safety.cpp.o.d -o CMakeFiles/DictionaryLookup.dir/Safety.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp
 
 lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DictionaryLookup.dir/Safety.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp > CMakeFiles/DictionaryLookup.dir/Safety.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp > CMakeFiles/DictionaryLookup.dir/Safety.cpp.i
 
 lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DictionaryLookup.dir/Safety.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp -o CMakeFiles/DictionaryLookup.dir/Safety.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp -o CMakeFiles/DictionaryLookup.dir/Safety.cpp.s
 
 lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o: lib/CMakeFiles/DictionaryLookup.dir/flags.make
 lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o: ../lib/UI.cpp
 lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o: lib/CMakeFiles/DictionaryLookup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o -MF CMakeFiles/DictionaryLookup.dir/UI.cpp.o.d -o CMakeFiles/DictionaryLookup.dir/UI.cpp.o -c /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o -MF CMakeFiles/DictionaryLookup.dir/UI.cpp.o.d -o CMakeFiles/DictionaryLookup.dir/UI.cpp.o -c /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp
 
 lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DictionaryLookup.dir/UI.cpp.i"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp > CMakeFiles/DictionaryLookup.dir/UI.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp > CMakeFiles/DictionaryLookup.dir/UI.cpp.i
 
 lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DictionaryLookup.dir/UI.cpp.s"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp -o CMakeFiles/DictionaryLookup.dir/UI.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp -o CMakeFiles/DictionaryLookup.dir/UI.cpp.s
 
 # Object files for target DictionaryLookup
 DictionaryLookup_OBJECTS = \
@@ -125,19 +125,19 @@ lib/libDictionaryLookup.a: lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o
 lib/libDictionaryLookup.a: lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o
 lib/libDictionaryLookup.a: lib/CMakeFiles/DictionaryLookup.dir/build.make
 lib/libDictionaryLookup.a: lib/CMakeFiles/DictionaryLookup.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libDictionaryLookup.a"
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/DictionaryLookup.dir/cmake_clean_target.cmake
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DictionaryLookup.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libDictionaryLookup.a"
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/DictionaryLookup.dir/cmake_clean_target.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DictionaryLookup.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/DictionaryLookup.dir/build: lib/libDictionaryLookup.a
 .PHONY : lib/CMakeFiles/DictionaryLookup.dir/build
 
 lib/CMakeFiles/DictionaryLookup.dir/clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/DictionaryLookup.dir/cmake_clean.cmake
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib && $(CMAKE_COMMAND) -P CMakeFiles/DictionaryLookup.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/DictionaryLookup.dir/clean
 
 lib/CMakeFiles/DictionaryLookup.dir/depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1 /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib/CMakeFiles/DictionaryLookup.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1 /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib/CMakeFiles/DictionaryLookup.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/DictionaryLookup.dir/depend
 

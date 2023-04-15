@@ -1,7 +1,7 @@
 lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o: \
- /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp \
  /usr/include/stdc-predef.h \
- /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.h \
+ /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

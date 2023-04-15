@@ -1,15 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/11.1/lib/Shapes.cpp" "/mnt/c/Users/kaasv/Desktop/Opgaver/CPP/Exercises/11.1/out/lib/CMakeFiles/Shapes.dir/Shapes.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/11.1/lib/Shapes.cpp" "lib/CMakeFiles/Shapes.dir/Shapes.cpp.o" "gcc" "lib/CMakeFiles/Shapes.dir/Shapes.cpp.o.d"
   )
 
 # Targets to which this target links.

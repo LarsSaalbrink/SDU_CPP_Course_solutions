@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Merge.dir/Merge.cpp.o"
+  "CMakeFiles/Merge.dir/Merge.cpp.o.d"
   "libMerge.a"
   "libMerge.pdb"
 )

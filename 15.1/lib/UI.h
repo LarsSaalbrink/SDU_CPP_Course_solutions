@@ -8,8 +8,8 @@ enum Options{
     badOption,
 };
 
-Options choice2(std::string message, char choice1, char choice2);
-Options choice3(std::string message, char choice1, char choice2, char choice3);
+Options choice2(const std::string& message, char choice1, char choice2);
+Options choice3(const std::string& message, char choice1, char choice2, char choice3);
 
 void programDone();
 

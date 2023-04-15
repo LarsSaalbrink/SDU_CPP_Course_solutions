@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp" "lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o" "gcc" "lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o.d"
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp" "lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o" "gcc" "lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o.d"
-  "/SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp" "lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o" "gcc" "lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/DictionaryLookup.cpp" "lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o" "gcc" "lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/Safety.cpp" "lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o" "gcc" "lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o.d"
+  "/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/lib/UI.cpp" "lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o" "gcc" "lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o.d"
   )
 
 # Targets to which this target links.

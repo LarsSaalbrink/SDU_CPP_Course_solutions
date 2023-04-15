@@ -30,9 +30,24 @@ int main()
     }
     
     std::cout << "\n\nIf no copy constructor & copy assignment operator are defined,\n";
-    std::cout << "the \"=\" produces a shallow copy, and the destructor will thus delete\n";
+    std::cout << "the \"=\" produces a shallow copy, and the destructor will thus deallocate\n";
     std::cout << "the same memory location twice when both a & b go out of scope.\n";
-    std::cout << "This then causes a crash.\n";
+    std::cout << "This then causes a crash.\n" << std::endl;
+
+    // Vector a(3);
+    // {
+    //     Vector b(2);
+    //     b[0] = 1;
+    //     b[1] = 2;
+    //     Vector a;
+    //     a = b;
+    // }
+    // Vector c(3);
+    // c[0] = 0;
+    // c[1] = 0;
+    // c[2] = 0;
+    // std::cout << a << std::endl;
+    // std::cout << "Finish" << std::endl;
 
     return test;
 }

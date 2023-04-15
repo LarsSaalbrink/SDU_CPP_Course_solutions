@@ -24,7 +24,9 @@ Vector::~Vector(){
 Vector& Vector::operator=(const Vector& rhs){
     if (this != &rhs)  //Check for self-assignment
     {
-        delete[] mElems;
+        if(mElems != nullptr){
+            delete[] mElems;
+        }
         mSize = rhs.mSize;
         mElems = new double[mSize];
         for (int i = 0; i < mSize; i++){
@@ -95,6 +97,7 @@ const double& Vector::operator[](int i) const{
     return mElems[i];
 }
 
+//Supposed to function as a mathematical vector, so limited acceptable inputs
 std::istream& operator>>(std::istream& input, Vector& a){
     //Keep reading until istream is exhausted or mSize elements read
     for (int i = 0; ((i < a.mSize) && (!input.eof())); i++){
@@ -103,7 +106,7 @@ std::istream& operator>>(std::istream& input, Vector& a){
             a.mElems[i] = (input.get()-48);      //-48 to remove ASCII offset
         }
         else if(input.peek() == 45){             //If character is negative number
-            input.get();                         //Remove the negative sign
+            input.get();                         //Remove the negative sign from buffer
             if((input.peek() >= 48) && (input.peek() <= 57)){
                 a.mElems[i] = (input.get()-48);  //-48 to remove ASCII offset
                 a.mElems[i] *= -1;               //Make number negative

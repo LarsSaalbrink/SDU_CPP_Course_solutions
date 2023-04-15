@@ -12,7 +12,8 @@ void getAndCheckInput(std::unordered_set<std::string> &dict){
 
 int main()
 {
-    std::unordered_set<std::string> enDict, daDict, deDict;
+    //Unordered_set for constant time lookup (hash table -> O(1) time complexity)
+    std::unordered_set<std::string> enDict, daDict, deDict;  
     Options currentChoice;
 
     importFromFile(enDict, "en.wl");
@@ -30,21 +31,23 @@ int main()
         if(currentChoice == option1){
             //Option 'C' selected
             currentChoice = choice3("\nEnglish, Danish or German? (E/D/G): ", 'E', 'D', 'G');
-            if(currentChoice == option1){
-                //Option 'E' selected
-                getAndCheckInput(enDict);
-            }
-            else if(currentChoice == option2){
-                //Option 'D' selected
-                getAndCheckInput(daDict);
-            }
-            else if(currentChoice == option3){
-                //Option 'G' selected
-                getAndCheckInput(deDict);
-            }
-            else{
-                //Invalid option selected
-                badInput();
+            //Switch on currentChoice
+            switch(currentChoice){
+                case(option1):
+                    //Option 'E' selected
+                    getAndCheckInput(enDict);
+                    break;
+                case(option2):
+                    //Option 'D' selected
+                    getAndCheckInput(daDict);
+                    break;
+                case(option3):
+                    //Option 'G' selected
+                    getAndCheckInput(deDict);
+                    break;
+                default:
+                    //Invalid option selected
+                    badInput();
             }
         }
         else if(currentChoice == option2){

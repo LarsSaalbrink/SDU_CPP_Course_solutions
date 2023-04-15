@@ -6,7 +6,7 @@
 bool regularConstructorTest(){
     Vector a(3);
 
-    try{  //Check if expected elements are present
+    try{  //Check if memory has been allocated
         a[0] = 0;
         a[1] = 1;
         a[2] = 2;
@@ -16,7 +16,7 @@ bool regularConstructorTest(){
         return true;
     }
 
-    try{  //Check if too many elements are present 
+    try{  //Check if too much memory has been allocated
         a[3] = 3;
     }
     catch (std::out_of_range& err){
@@ -67,7 +67,7 @@ bool copyAssignmentOperatorTest(){
 
     b = a;  //Copy assignment operator
 
-    if (a == b){  //Use == operator overload
+    if ((a[0] == b[0]) && (a[1] == b[1]) && (a[2] == b[2])){  
         return false;
     }
     std::cout << 

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libMerge.a  CMakeFiles/Merge.dir/Merge.cpp.o
+/usr/bin/ar qc libMerge.a CMakeFiles/Merge.dir/Merge.cpp.o
 /usr/bin/ranlib libMerge.a

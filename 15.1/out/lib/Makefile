@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1
+CMAKE_SOURCE_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out
+CMAKE_BINARY_DIR = /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib//CMakeFiles/progress.marks
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/lib//CMakeFiles/progress.marks
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/DictionaryLookup.dir/rule:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/DictionaryLookup.dir/rule
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/DictionaryLookup.dir/rule
 .PHONY : lib/CMakeFiles/DictionaryLookup.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ DictionaryLookup: lib/CMakeFiles/DictionaryLookup.dir/rule
 
 # fast build rule for target.
 DictionaryLookup/fast:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/build
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/build
 .PHONY : DictionaryLookup/fast
 
 DictionaryLookup.o: DictionaryLookup.cpp.o
@@ -135,7 +135,7 @@ DictionaryLookup.o: DictionaryLookup.cpp.o
 
 # target to build an object file
 DictionaryLookup.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.o
 .PHONY : DictionaryLookup.cpp.o
 
 DictionaryLookup.i: DictionaryLookup.cpp.i
@@ -143,7 +143,7 @@ DictionaryLookup.i: DictionaryLookup.cpp.i
 
 # target to preprocess a source file
 DictionaryLookup.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.i
 .PHONY : DictionaryLookup.cpp.i
 
 DictionaryLookup.s: DictionaryLookup.cpp.s
@@ -151,7 +151,7 @@ DictionaryLookup.s: DictionaryLookup.cpp.s
 
 # target to generate assembly for a file
 DictionaryLookup.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/DictionaryLookup.cpp.s
 .PHONY : DictionaryLookup.cpp.s
 
 Safety.o: Safety.cpp.o
@@ -159,7 +159,7 @@ Safety.o: Safety.cpp.o
 
 # target to build an object file
 Safety.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.o
 .PHONY : Safety.cpp.o
 
 Safety.i: Safety.cpp.i
@@ -167,7 +167,7 @@ Safety.i: Safety.cpp.i
 
 # target to preprocess a source file
 Safety.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.i
 .PHONY : Safety.cpp.i
 
 Safety.s: Safety.cpp.s
@@ -175,7 +175,7 @@ Safety.s: Safety.cpp.s
 
 # target to generate assembly for a file
 Safety.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/Safety.cpp.s
 .PHONY : Safety.cpp.s
 
 UI.o: UI.cpp.o
@@ -183,7 +183,7 @@ UI.o: UI.cpp.o
 
 # target to build an object file
 UI.cpp.o:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.o
 .PHONY : UI.cpp.o
 
 UI.i: UI.cpp.i
@@ -191,7 +191,7 @@ UI.i: UI.cpp.i
 
 # target to preprocess a source file
 UI.cpp.i:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.i
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.i
 .PHONY : UI.cpp.i
 
 UI.s: UI.cpp.s
@@ -199,7 +199,7 @@ UI.s: UI.cpp.s
 
 # target to generate assembly for a file
 UI.cpp.s:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.s
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/DictionaryLookup.dir/build.make lib/CMakeFiles/DictionaryLookup.dir/UI.cpp.s
 .PHONY : UI.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /SharedDisk/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exercises/SDU_CPP_Course_solutions/15.1/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
