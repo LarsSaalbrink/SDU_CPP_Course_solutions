@@ -8,9 +8,13 @@ using namespace std;
 
 
 bool importFromFile(unordered_set<string>& dict, const string& fileName){
-    //Import one line at a time from the file
+    //Try to open file, return true if file not found
     ifstream file(fileName);
+    if (!file.is_open()){
+        return true;
+    }
 
+    //Import one line at a time from the file
     string line;
     while (getline(file, line)){
         //Insert all but the last character (newline)

@@ -3,11 +3,36 @@
 #include "UI.h"
 #include "Safety.h"
 
-void getAndCheckInput(std::unordered_set<std::string> &dict){
+void getAndCheckInput(std::unordered_set<std::string>& dict){
     std::string input;
     std::cout << "Enter word: ";
     getInput(input);
     std::cout << "Valid matches: " << isAnyValid(dict, input);
+}
+
+void importDictionaries(std::unordered_set<std::string>& enDict, 
+                        std::unordered_set<std::string>& daDict, 
+                        std::unordered_set<std::string>& deDict){
+    if(importFromFile(enDict, "en.wl")){
+        std::cout << "English dictionary not found.\n";
+    }
+    else{
+        std::cout << "English dictionary contains " << enDict.size() << " words.\n";
+    }
+
+    if(importFromFile(daDict, "da.wl")){
+        std::cout << "Danish dictionary not found.\n";
+    }
+    else{
+        std::cout << "Danish dictionary contains " << daDict.size() << " words.\n";
+    }
+
+    if(importFromFile(deDict, "de.wl")){
+        std::cout << "German dictionary not found.\n";
+    }
+    else{
+        std::cout << "German dictionary contains " << deDict.size() << " words.\n";
+    }
 }
 
 int main()
@@ -16,15 +41,8 @@ int main()
     std::unordered_set<std::string> enDict, daDict, deDict;  
     Options currentChoice;
 
-    importFromFile(enDict, "en.wl");
-    std::cout << "English dictionary contains " << enDict.size() << " words.\n";
-
-    importFromFile(daDict, "da.wl");
-    std::cout << "Danish dictionary contains " << daDict.size() << " words.\n";
-
-    importFromFile(deDict, "de.wl");
-    std::cout << "German dictionary contains " << deDict.size() << " words.\n";
-
+    //Try to import dictionaries from files
+    importDictionaries(enDict, daDict, deDict);
 
     while(1){
         currentChoice = choice2("\nCheck word or exit? (C/E): ", 'C', 'E');
