@@ -2,7 +2,7 @@
 #include <vector>
 
 std::vector<std::pair<double, int> > readPolynomial(std::string& p){
-    //Recursive function, not ideal with given prototype, but good exercise
+    //Recursive function :)
     
     if(p.size() == 0){
         return std::vector<std::pair<double, int> >();
@@ -27,8 +27,8 @@ std::vector<std::pair<double, int> > readPolynomial(std::string& p){
             poly.push_back(std::make_pair(std::stod(coeff), std::stoi(power)));
             
             //Recursively read the rest of the polynomial
-            std::string rest = p.substr(pos+2);
-            std::vector<std::pair<double, int> > restPoly = readPolynomial(rest);
+            p.erase(0, posP);  //Remove the read term
+            std::vector<std::pair<double, int> > restPoly = readPolynomial(p);
 
             //Add the rest of the polynomial to the result
             poly.insert(poly.end(), restPoly.begin(), restPoly.end());
