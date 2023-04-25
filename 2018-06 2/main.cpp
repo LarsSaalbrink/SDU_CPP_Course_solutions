@@ -20,8 +20,8 @@ std::vector<std::pair<double, int> > readPolynomial(std::string& p){
             std::string coeff = p.substr(0, pos-1); 
 
             //Determine power
-            int posP = p.find_first_of("+-", pos);  //Find end of power
-            std::string power = ((posP == -1) ? "0" : p.substr(posP-1));  //No more terms -> ^0
+            int posP = p.find_first_of("+-", pos);  //Find end of power substring
+            std::string power = ((posP == -1) ? "0" : p.substr(pos+1,posP-1));//No more terms -> ^0
 
             //Add term to result
             poly.push_back(std::make_pair(std::stod(coeff), std::stoi(power)));
