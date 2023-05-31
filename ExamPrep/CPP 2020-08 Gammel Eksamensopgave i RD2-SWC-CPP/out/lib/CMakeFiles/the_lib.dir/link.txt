@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthe_lib.a CMakeFiles/the_lib.dir/TimeAndMaterials.cpp.o CMakeFiles/the_lib.dir/WorkHours.cpp.o CMakeFiles/the_lib.dir/Material.cpp.o CMakeFiles/the_lib.dir/TimeSheet.cpp.o
+/usr/bin/ranlib libthe_lib.a

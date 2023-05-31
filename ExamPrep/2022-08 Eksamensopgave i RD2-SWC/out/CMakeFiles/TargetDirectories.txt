@@ -1,0 +1,6 @@
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/out/CMakeFiles/main.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/out/CMakeFiles/edit_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/out/CMakeFiles/rebuild_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/out/lib/CMakeFiles/the_lib.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/out/lib/CMakeFiles/edit_cache.dir
+/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/out/lib/CMakeFiles/rebuild_cache.dir

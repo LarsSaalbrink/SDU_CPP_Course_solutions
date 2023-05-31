@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthe_lib.a CMakeFiles/the_lib.dir/Ingredient.cpp.o CMakeFiles/the_lib.dir/Recipe.cpp.o
+/usr/bin/ranlib libthe_lib.a

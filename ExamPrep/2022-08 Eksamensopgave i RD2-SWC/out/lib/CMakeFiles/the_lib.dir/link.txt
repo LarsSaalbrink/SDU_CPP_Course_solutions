@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthe_lib.a CMakeFiles/the_lib.dir/Expense.cpp.o CMakeFiles/the_lib.dir/ProductCost.cpp.o CMakeFiles/the_lib.dir/Product.cpp.o
+/usr/bin/ranlib libthe_lib.a

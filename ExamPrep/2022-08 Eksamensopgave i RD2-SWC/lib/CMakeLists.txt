@@ -1,0 +1,1 @@
+add_library(the_lib Expense.cpp ProductCost.cpp Product.cpp)

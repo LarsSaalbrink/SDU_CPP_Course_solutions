@@ -1,0 +1,1 @@
+add_library(the_lib Lot.cpp Bid.cpp Buyer.cpp)

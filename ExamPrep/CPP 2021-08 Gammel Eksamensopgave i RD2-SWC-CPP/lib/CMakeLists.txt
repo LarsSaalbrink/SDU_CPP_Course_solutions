@@ -1,0 +1,1 @@
+add_library(the_lib Ingredient.cpp Recipe.cpp)

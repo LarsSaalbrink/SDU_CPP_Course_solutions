@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.cpp.o -o main   -L"/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/lib"  -Wl,-rpath,"/mnt/d/IDriveCloud/Cloud-Drive_kaasviking@gmail.com/Opgaver/CPP/Exam prep/2022-08 Eksamensopgave i RD2-SWC/lib" lib/libthe_lib.a 

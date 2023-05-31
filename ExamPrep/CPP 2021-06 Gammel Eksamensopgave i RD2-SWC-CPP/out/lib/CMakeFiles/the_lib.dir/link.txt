@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthe_lib.a CMakeFiles/the_lib.dir/Bin.cpp.o CMakeFiles/the_lib.dir/Student.cpp.o CMakeFiles/the_lib.dir/Gradebook.cpp.o
+/usr/bin/ranlib libthe_lib.a

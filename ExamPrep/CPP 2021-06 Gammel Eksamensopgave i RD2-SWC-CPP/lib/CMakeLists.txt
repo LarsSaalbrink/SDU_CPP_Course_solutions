@@ -1,0 +1,1 @@
+add_library(the_lib Bin.cpp Student.cpp Gradebook.cpp)
